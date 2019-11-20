@@ -19,5 +19,6 @@
 * [Tutorials/Videos](help/tutorials-videos.md)
 * [FAQ](help/styleguide-vs.-pattern-library.md)
 * [Drupal FAQ](help/drupal-faq.md)
+* [Webpack & Build](help/webpack-and-build.md)
 * [For Designers](help/for-designers.md)
 
