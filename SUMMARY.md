@@ -12,17 +12,10 @@
 * [Drupal Installation](installation/installation.md)
 * [Standalone Installation](installation/installation-2.md)
 * [Styleguide Installation \(Gatsby\)](installation/installation-1.md)
-
-## Drupal
-
-* [Upgrading](drupal/installation-new.md)
-* [Drupal Usage](drupal/usage.md)
-
-## Design System \(Standalone\)
-
-* [Standalone Usage](design-system-standalone/documentation.md)
+* [Upgrading](installation/installation-new.md)
 
 ## Usage
 
-* [Untitled](usage/untitled.md)
+* [Drupal Usage](usage/usage.md)
+* [Standalone Usage](usage/documentation.md)
 

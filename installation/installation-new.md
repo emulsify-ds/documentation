@@ -1,3 +1,7 @@
+---
+description: Upgrading from the deprecated Emulsify Pattern Lab
+---
+
 # Upgrading
 
 ### Required Steps
