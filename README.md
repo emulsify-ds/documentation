@@ -14,7 +14,7 @@ There are also Gatsby starters in the Emulsify ecosystem, one of which is for [D
 
 * [Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation)
 * [Usage](https://fourkitchens.gitbook.io/emulsify-design-system/usage/drupal-usage)
-* [Upgrading](https://fourkitchens.gitbook.io/emulsify-design-system/drupal/installation-new)
+* [Upgrading](https://fourkitchens.gitbook.io/emulsify-design-system/installation/upgrading)
 
 ### Styleguide \(coming early 2020\)
 
