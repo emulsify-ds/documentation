@@ -2,7 +2,7 @@
 description: 'Instructions from https://github.com/emulsify-ds/gatsby-theme-emulsify'
 ---
 
-# Installation
+# Styleguide Installation \(Gatsby\)
 
 ### Quickstart
 

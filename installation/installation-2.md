@@ -4,7 +4,7 @@ description: >-
   https://github.com/emulsify-ds/gatsby-starter-emulsify-drupal
 ---
 
-# Installation
+# Standalone Installation
 
 ### Standalone \(not Drupal\)
 
