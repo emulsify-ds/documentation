@@ -12,7 +12,7 @@
 * [Drupal Installation](installation/drupal-installation.md)
 * [Standalone Installation](installation/standalone-installation.md)
 * [Styleguide Installation \(Gatsby\)](installation/styleguide-installation.md)
-* [Upgrading](installation/installation-new.md)
+* [Upgrading](installation/upgrading.md)
 
 ## Usage
 

@@ -13,7 +13,7 @@ Emulsify Design System contains a fully customizable Styleguide powered by [Gats
 There are also Gatsby starters in the Emulsify ecosystem, one of which is for [Drupal](https://www.drupal.org/). It contains a Pattern Library and development environment powered by [Storybook](https://storybook.js.org/) and [Webpack](https://webpack.js.org/) and is a Drupal 8 theme. That project can be found [here](https://github.com/emulsify-ds/gatsby-starter-emulsify-drupal).
 
 * [Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation)
-* [Usage](https://fourkitchens.gitbook.io/emulsify-design-system/drupal/usage)
+* [Usage](https://fourkitchens.gitbook.io/emulsify-design-system/usage/drupal-usage)
 * [Upgrading](https://fourkitchens.gitbook.io/emulsify-design-system/drupal/installation-new)
 
 ### Styleguide \(coming early 2020\)
