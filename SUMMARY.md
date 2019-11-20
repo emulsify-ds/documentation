@@ -16,8 +16,8 @@
 
 ## Usage
 
-* [Drupal Usage](usage/usage.md)
-* [Standalone Usage](usage/documentation.md)
+* [Drupal Usage](usage/drupal-usage.md)
+* [Standalone Usage](usage/standalone-usage.md)
 
 ## Help
 
