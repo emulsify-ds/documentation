@@ -1,4 +1,6 @@
-# Styleguide vs. Pattern Library
+# FAQ
 
-TBD
+### What is the difference between a Styleguide and Pattern Library
+
+A styleguide 
 

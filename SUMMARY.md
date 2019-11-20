@@ -5,7 +5,7 @@
 ## Overview <a id="basics"></a>
 
 * [Orientation](basics/orientation.md)
-* [Styleguide vs. Pattern Library](basics/styleguide-vs.-pattern-library.md)
+* [FAQ](basics/styleguide-vs.-pattern-library.md)
 
 ## Installation
 
@@ -18,4 +18,8 @@
 
 * [Drupal Usage](usage/usage.md)
 * [Standalone Usage](usage/documentation.md)
+
+## Help
+
+* [Tutorials/Videos](help/tutorials-videos.md)
 
