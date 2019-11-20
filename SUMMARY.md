@@ -11,14 +11,14 @@
 
 * [Installation](styleguide/installation.md)
 
-## Pattern Library \(Storybook\)
-
-* [Installation](pattern-library-storybook/installation.md)
-* [Usage](pattern-library-storybook/documentation.md)
-
 ## Drupal
 
 * [Installation](drupal/installation.md)
-* [Usage](drupal/usage.md)
 * [Upgrading](drupal/installation-new.md)
+* [Usage](drupal/usage.md)
+
+## Prototyping \(Storybook\) <a id="pattern-library-storybook"></a>
+
+* [Installation](pattern-library-storybook/installation.md)
+* [Usage](pattern-library-storybook/documentation.md)
 
