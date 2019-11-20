@@ -9,9 +9,9 @@
 
 ## Installation
 
-* [Drupal Installation](installation/installation.md)
-* [Standalone Installation](installation/installation-2.md)
-* [Styleguide Installation \(Gatsby\)](installation/installation-1.md)
+* [Drupal Installation](installation/drupal-installation.md)
+* [Standalone Installation](installation/standalone-installation.md)
+* [Styleguide Installation \(Gatsby\)](installation/styleguide-installation.md)
 * [Upgrading](installation/installation-new.md)
 
 ## Usage
