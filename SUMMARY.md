@@ -2,11 +2,6 @@
 
 * [Emulsify Design System](README.md)
 
-## Overview <a id="basics"></a>
-
-* [Orientation](basics/orientation.md)
-* [FAQ](basics/styleguide-vs.-pattern-library.md)
-
 ## Installation
 
 * [Drupal Installation](installation/drupal-installation.md)
@@ -22,4 +17,5 @@
 ## Help
 
 * [Tutorials/Videos](help/tutorials-videos.md)
+* [FAQ](help/styleguide-vs.-pattern-library.md)
 
