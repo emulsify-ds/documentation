@@ -18,4 +18,5 @@
 
 * [Tutorials/Videos](help/tutorials-videos.md)
 * [FAQ](help/styleguide-vs.-pattern-library.md)
+* [Drupal FAQ](help/drupal-faq.md)
 

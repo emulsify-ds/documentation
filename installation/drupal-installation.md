@@ -12,10 +12,10 @@ description: Instructions for installing Emulsify as your Drupal theme
 
 ### Composer \(recommended\)
 
-1. Require emulsify in your project `composer require fourkitchens/gatsby-starter-emulsify-drupal`
-2. Move into the Emulsify theme `cd web/themes/contrib/gatsby-starter-emulsify-drupal/`
-3. Create your new theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
-4. Move into your theme directory `cd web/themes/custom/THEME_NAME/`
+1. Require emulsify in your project `composer require emulsify-ds/emulsify-design-system`
+2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify/`
+3. Create your new custom theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
+4. Move into your new custom theme directory `cd web/themes/custom/THEME_NAME/`
 5. Install the theme dependencies `yarn` or `npm install`
 6. Enable your theme and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
 
