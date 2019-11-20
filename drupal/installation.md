@@ -2,7 +2,7 @@
 description: Instructions for installing Emulsify as your Drupal theme
 ---
 
-# Installation
+# Drupal Installation
 
 ### Requirements
 

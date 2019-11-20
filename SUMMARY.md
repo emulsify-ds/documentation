@@ -13,12 +13,12 @@
 
 ## Drupal
 
-* [Installation](drupal/installation.md)
+* [Drupal Installation](drupal/installation.md)
 * [Upgrading](drupal/installation-new.md)
 * [Usage](drupal/usage.md)
 
-## Prototyping \(Storybook\) <a id="pattern-library-storybook"></a>
+## Design System \(Standalone\)
 
-* [Installation](pattern-library-storybook/installation.md)
-* [Usage](pattern-library-storybook/documentation.md)
+* [Installation](design-system-standalone/installation.md)
+* [Usage](design-system-standalone/documentation.md)
 
