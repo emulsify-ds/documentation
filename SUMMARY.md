@@ -13,10 +13,10 @@
 * [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
 
-## Configuration
+## Details
 
-* [Twig Extensions](configuration/twig-extensions.md)
-* [Webpack & Babel](configuration/webpack-and-build.md)
+* [Twig Extensions](details/twig-extensions.md)
+* [Webpack & Babel](details/webpack-and-build.md)
 
 ## Help
 

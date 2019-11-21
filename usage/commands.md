@@ -24,7 +24,7 @@ This combines 3 tasks:
 
 This combines 3 tasks:
 
-1. `yarn build-webpack` \(same as `yarn webpack`  but without watch task and using [production](../configuration/webpack-and-build.md#project) webpack file\)
+1. `yarn build-webpack` \(same as `yarn webpack`  but without watch task and using [production](../details/webpack-and-build.md#project) webpack file\)
 2. `yarn build-babel` \(same as `yarn babel` but without watch task\)
 3. \(Coming soon\) `yarn build-styleguide`
 
