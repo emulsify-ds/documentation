@@ -11,9 +11,9 @@
 
 ## Usage
 
+* [Standalone Usage](usage/standalone-usage.md)
 * [Drupal Usage](usage/drupal-usage/README.md)
   * [Twig Extensions](usage/drupal-usage/twig-extensions.md)
-* [Standalone Usage](usage/standalone-usage.md)
 
 ## Help
 
