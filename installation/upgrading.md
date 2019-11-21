@@ -60,7 +60,7 @@ To complete the step above, you would add this `js` directory to the Storybook c
 
 ### Writing Stories
 
-Storybook only loads the stories you tell it to, so you will need to create \*.stories.js files. We have multiple examples in the new starter including ones using complex Twig includes, sharing data across components and using JavaScript \(see [usage](https://app.gitbook.com/@four-kitchens/s/emulsify-design-system/drupal/usage) for details\).
+Storybook only loads the stories you tell it to, so you will need to create \*.stories.js files. We have multiple examples in the new starter including ones using complex Twig includes, sharing data across components and using JavaScript \(see [usage](../usage/writing-stories/) details\).
 
 ### Data
 
