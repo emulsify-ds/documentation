@@ -1,8 +1,4 @@
----
-description: 'Instructions from https://github.com/emulsify-ds/gatsby-theme-emulsify'
----
-
-# Styleguide Installation \(Gatsby\)
+# Styleguide Standalone Installation
 
 ### Quickstart
 

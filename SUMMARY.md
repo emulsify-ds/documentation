@@ -4,8 +4,8 @@
 
 ## Installation
 
-* [Installation Instructions](installation/instructions.md)
-* [Styleguide Installation \(Gatsby\)](installation/styleguide-installation.md)
+* [Design System Instructions](installation/design-system-instructions.md)
+* [Styleguide Standalone Installation](installation/styleguide-standalone-installation.md)
 * [Upgrading](installation/upgrading.md)
 
 ## Usage
