@@ -11,8 +11,8 @@
 ## Usage
 
 * [General Usage](usage/general-usage.md)
-* [Writing Stories](usage/drupal-usage/README.md)
-  * [Twig Extensions](usage/drupal-usage/twig-extensions.md)
+* [Writing Stories](usage/writing-stories/README.md)
+  * [Twig Extensions](usage/writing-stories/twig-extensions.md)
 
 ## Help
 
