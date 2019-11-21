@@ -14,11 +14,11 @@ This combines 3 tasks:
 
 `yarn deploy-storybook`
 
-#### Generate Design System
+### Linting
 
-`yarn styleguide` or `npm run styleguide`
+`yarn lint`
 
-#### Build Tasks
+### Build
 
 `yarn build` or `npm run build`
 
@@ -28,7 +28,7 @@ This combines 3 tasks:
 2. `yarn build-babel` \(same as `yarn babel` but without watch task\)
 3. \(Coming soon\) `yarn build-styleguide`
 
-#### Linting
+### Styleguide \(coming soon\)
 
-`yarn lint`
+`yarn styleguide` or `npm run styleguide`
 
