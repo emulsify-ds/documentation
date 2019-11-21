@@ -8,7 +8,7 @@ Emulsify is a full Design System encompassing both a [Storybook](https://storybo
 
 ### Storybook + Drupal
 
-Emulsify is a full prototyping development environment using [Storybook](https://storybook.js.org/) as a Pattern Library and [Webpack](https://webpack.js.org/) as a build engine. It is also a [Drupal](https://www.drupal.org/) 8 theme. It can be used as a standalone prototyping tool or inside a Drupal installation.
+Emulsify is a full prototyping development environment using [Storybook](https://storybook.js.org/) as a Pattern Library and [Webpack](https://webpack.js.org/) as a build engine. It is also a [Drupal](https://www.drupal.org/) 8 theme. It can be used as a standalone prototyping tool or inside a Drupal installation. It supports both Twig and React components!
 
 * [Installation](installation/design-system.md)
 * [Usage](usage/commands.md)
