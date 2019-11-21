@@ -64,5 +64,5 @@ Storybook only loads the stories you tell it to, so you will need to create \*.s
 
 ### Data
 
-Data can still be handled via YML \(preferred\) or JSON files. However, you will need to handle any global data files differently \(see [usage](https://app.gitbook.com/@four-kitchens/s/emulsify-design-system/drupal/usage) instructions\) as the new setup pays no attention automatically to the old `/components/_data` directory.
+Data can still be handled via YML \(preferred\) or JSON files. However, you will need to handle any global data files differently \(see [usage](../usage/writing-stories.md) instructions\) as the new setup pays no attention automatically to the old `/components/_data` directory.
 
