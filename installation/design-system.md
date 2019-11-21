@@ -14,6 +14,7 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 1. [PHP 7.1](http://www.php.net/)
 2. [Node \(we recommend NVM\)](https://github.com/creationix/nvm)
 3. [Composer](https://getcomposer.org/)
+4. [Yarn](https://yarnpkg.com/) \(optional\)
 
 #### Composer \(recommended\)
 
