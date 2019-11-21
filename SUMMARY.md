@@ -4,8 +4,7 @@
 
 ## Installation
 
-* [Drupal Installation](installation/drupal-installation.md)
-* [Standalone Installation](installation/standalone-installation.md)
+* [Installation Instructions](installation/instructions.md)
 * [Styleguide Installation \(Gatsby\)](installation/styleguide-installation.md)
 * [Upgrading](installation/upgrading.md)
 

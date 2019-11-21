@@ -2,7 +2,7 @@
 description: Instructions for installing Emulsify as your Drupal theme
 ---
 
-# Drupal Installation
+# Installation Instructions
 
 1. [Drupal Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#drupal-installation)
 2. [Standalone Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#standalone-installation-prototyping-and-or-contribution)
