@@ -1,10 +1,8 @@
 ---
-description: >-
-  Instructions for installing the Emulsify design system for prototyping and as
-  a Drupal theme
+description: Install the Emulsify design system for prototyping and/or as a Drupal theme
 ---
 
-# Design System Instructions
+# Design System
 
 1. [Drupal Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#drupal-installation)
 2. [Standalone Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#standalone-installation-prototyping-and-or-contribution)

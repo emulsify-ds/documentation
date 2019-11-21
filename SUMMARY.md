@@ -4,8 +4,8 @@
 
 ## Installation
 
-* [Design System Instructions](installation/design-system-instructions.md)
-* [Styleguide Standalone Installation](installation/styleguide-standalone-installation.md)
+* [Design System](installation/design-system-instructions.md)
+* [Styleguide Only](installation/styleguide-standalone-installation.md)
 * [Upgrading](installation/upgrading.md)
 
 ## Usage
