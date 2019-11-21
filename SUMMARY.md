@@ -10,7 +10,7 @@
 
 ## Usage
 
-* [General Usage](usage/general-usage.md)
+* [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
 
 ## Configuration
