@@ -19,11 +19,13 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 #### Composer \(recommended\)
 
 1. Require emulsify in your project `composer require emulsify-ds/emulsify-design-system`
-2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify/`
+2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify-design-system`
 3. Create your new custom theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
 4. Move into your new custom theme directory `cd web/themes/custom/THEME_NAME/`
 5. Install the theme dependencies `yarn` or `npm install`
-6. Enable your theme and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
+6. Build theme `yarn build`
+7. Enable your theme and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
+8. Log in and set your custom theme to be the default
 
 Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-vs.-pattern-library/drupal-faq.md).
 
@@ -37,8 +39,10 @@ _Note: Once you've created your custom theme, you can remove Emulsify as a depen
 4. Create your new theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
 5. Move into your cloned theme directory `cd web/themes/custom/THEME_NAME/`
 6. Install the theme dependencies `yarn` or `npm install`
-7. Move the Emulsify Twig module from `themes/custom/emulsify/vendor/drupal/emulsify_twig/` to `modules/contrib/emulsify_twig`. \(You can do this from the Drupal root with `cp -r themes/contrib/emulsify/vendor/drupal/emulsify_twig/ modules/contrib/emulsify_twig`\)
-8. Enable Emulsify and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
+7. Build Theme `yarn build`
+8. Move the Emulsify Twig module from `themes/custom/emulsify/vendor/drupal/emulsify_twig/` to `modules/contrib/emulsify_twig`. \(You can do this from the Drupal root with `cp -r themes/contrib/emulsify/vendor/drupal/emulsify_twig/ modules/contrib/emulsify_twig`\)
+9. Enable Emulsify and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
+10. Log in and set your custom theme to be the default
 
 Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-vs.-pattern-library/drupal-faq.md).
 
