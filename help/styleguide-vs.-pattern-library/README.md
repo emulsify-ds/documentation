@@ -2,7 +2,7 @@
 
 ### What is the difference between a Styleguide and Pattern Library?
 
-Put simply, a Pattern Library unifies a production team and a Styleguide unifies an organization. A Pattern Library is a tool often used by developers and designers to unify around building project components - good examples of these are [Storybook](https://storybook.js.org/) and [Pattern Lab](https://patternlab.io/). A Styleguide can include components from the Pattern Library but also includes other information useful to other teams such as content editors, user experience, accessibility and executives.
+Put simply, a Pattern Library unifies a production team and a Styleguide unifies an organization. A Pattern Library is a tool often used by developers and designers to unify around building project components - good examples of these are [Storybook](https://storybook.js.org/) and [Pattern Lab](https://patternlab.io/). A Styleguide can include components from the Pattern Library but also includes other information useful to other teams such as content editors, user experience, accessibility and executives. A good example of a Styleguide is [Carbon Design System](https://www.carbondesignsystem.com/).
 
 ### What is a Design System?
 
