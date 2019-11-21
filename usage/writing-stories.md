@@ -1,6 +1,6 @@
 # Writing Stories
 
-Writing components is still the same as it has always been in Emulsify \(Create your component Twig, .scss and/or .js files. However, you will now want to create stories to show your components in Storybook. See below for some examples:
+Writing components is still the same as it has always been in Emulsify \(Create your component Twig/React, .scss and/or .js files. However, you will now want to create stories to show your components in Storybook. See below for some examples:
 
 ### Simple annotated example
 
