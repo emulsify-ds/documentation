@@ -14,6 +14,8 @@ This combines 3 tasks:
 
 `yarn deploy-storybook`
 
+[Here is a demo](https://emulsify-ds.github.io/emulsify-design-system) of the default Storybook Github deployment
+
 ### Linting
 
 `yarn lint`
