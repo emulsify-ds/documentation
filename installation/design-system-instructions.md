@@ -1,5 +1,7 @@
 ---
-description: Instructions for installing Emulsify as your Drupal theme
+description: >-
+  Instructions for installing the Emulsify design system for prototyping and as
+  a Drupal theme
 ---
 
 # Design System Instructions
