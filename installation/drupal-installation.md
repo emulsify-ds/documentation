@@ -4,7 +4,7 @@ description: Instructions for installing Emulsify as your Drupal theme
 
 # Drupal Installation
 
-1. Drupal Installation
+1. [Drupal Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#drupal-installation)
 2. Standalone Installation
 
 ### Drupal Installation
@@ -40,4 +40,8 @@ _Note: Once you've created your custom theme, you can remove Emulsify as a depen
 8. Enable Emulsify and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
 
 See [Drupal FAQ](https://fourkitchens.gitbook.io/emulsify-design-system/help/drupal-faq) for details
+
+### Standalone Installation \(prototyping and/or contribution\)
+
+`yarn` or `npm install`
 
