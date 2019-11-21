@@ -1,6 +1,4 @@
-# Drupal Usage
-
-Storybook usage can be found [here](https://app.gitbook.com/@four-kitchens/s/emulsify-design-system/pattern-library-storybook/documentation).
+# Writing Stories
 
 Writing components is still the same as it has always been in Emulsify \(Create your component Twig, .scss and/or .js files. However, you will now want to create stories to show your components in Storybook. See below for some examples:
 

@@ -1,4 +1,4 @@
-# Standalone Usage
+# General Usage
 
 ### Storybook
 
