@@ -4,8 +4,8 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 
 # Design System
 
-1. [Drupal Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#drupal-installation)
-2. [Standalone Installation](https://fourkitchens.gitbook.io/emulsify-design-system/installation/drupal-installation#standalone-installation-prototyping-and-or-contribution)
+1. [Drupal Installation](design-system.md#drupal-installation)
+2. [Standalone Installation](design-system.md#standalone-installation-prototyping-and-or-contribution)
 
 ### Drupal Installation
 
@@ -24,7 +24,7 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 5. Install the theme dependencies `yarn` or `npm install`
 6. Enable your theme and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
 
-Troubleshooting Installation: See [Drupal Installation FAQ](https://fourkitchens.gitbook.io/emulsify-design-system/help/drupal-faq).
+Troubleshooting Installation: See [Drupal Installation FAQ](../help/drupal-faq.md).
 
 _Note: Once you've created your custom theme, you can remove Emulsify as a dependency of your project. If you'd like to get updates as we push them, solely for educational/best-practice information, feel free to leave it in and receive the updates. Updating Emulsify will not affect your custom theme in any way. You should not however enable both projects - only your custom theme._
 
@@ -39,7 +39,7 @@ _Note: Once you've created your custom theme, you can remove Emulsify as a depen
 7. Move the Emulsify Twig module from `themes/custom/emulsify/vendor/drupal/emulsify_twig/` to `modules/contrib/emulsify_twig`. \(You can do this from the Drupal root with `cp -r themes/contrib/emulsify/vendor/drupal/emulsify_twig/ modules/contrib/emulsify_twig`\)
 8. Enable Emulsify and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
 
-See [Drupal FAQ](https://fourkitchens.gitbook.io/emulsify-design-system/help/drupal-faq) for details
+Troubleshooting Installation: See [Drupal Installation FAQ](../help/drupal-faq.md).
 
 ### Standalone Installation \(prototyping and/or contribution\)
 

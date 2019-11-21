@@ -7,7 +7,7 @@ description: Upgrading from the now deprecated Emulsify Pattern Lab
 ### Required Steps
 
 1. Rename old theme directory.
-2. Follow [Drupal installation instructions](https://app.gitbook.com/@four-kitchens/s/emulsify-design-system/drupal/installation) \(be sure and use your old name and machine name in the php script, e.g., `php emulsify.php "THEME NAME" --machine-name THEME_NAME`
+2. Follow [Drupal installation instructions](design-system.md#drupal-installation) \(be sure and use your old name and machine name in the php script, e.g., `php emulsify.php "THEME NAME" --machine-name THEME_NAME`
 3. Replace contents of the new theme's `components` directory with your old theme's `components/_patterns` contents. Be sure and change any library paths in style.scss, like so:
 
 ```text
