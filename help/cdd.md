@@ -1,10 +1,10 @@
-# For Designers
+---
+description: Helpful information for those new to component-driven design
+---
 
-Designers, this section is for you. It'll help get you prototyping in a way that will allow your work to be integrated easily with other systems like Drupal.
+# Component-Driven Design
 
-### Design Process for this project
-
-For the design of this project we want to design systemically and share that design as functional prototypes. We design using the [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) system.
+Component-driven design is a way to systematize and share designs as functional prototypes. Emulsify uses the [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) system for organization.
 
 * **Atoms** are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.
 * **Molecules** are where things start to get more tangible as we start combining atoms together. Example, a search form comprised of a label, input and submit button.
@@ -12,7 +12,7 @@ For the design of this project we want to design systemically and share that des
 * **Templates** consist mostly of groups of organisms stitched together to form pages. It’s here where we start to see the design coming together and start seeing things like layout in action. Example, article node page.
 * **Pages** are specific instances of templates. Here, placeholder content is replaced with real representative content to give an accurate depiction of what a user will ultimately see.
 
-We accomplish this by using [Storybook](https://storybook.js.org/) and [Twig](https://twig.symfony.com/). Because both Storybook and Drupal 8 can use Twig for templates, this means that the design components that get built can be used directly by Drupal! 🎉S
+We accomplish this by using [Storybook](https://storybook.js.org/) and [Twig](https://twig.symfony.com/). Because both Storybook and Drupal 8 can use Twig for templates, this means that the design components that get built can be used directly by systems such as Drupal! 🎉
 
 ### How to use Storybook
 
