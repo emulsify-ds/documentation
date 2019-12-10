@@ -25,11 +25,13 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 5. Install the theme dependencies `yarn` or `npm install`
 6. Build theme `yarn build`
 7. Enable your theme and its dependencies `drush then THEME_NAME -y && drush en components emulsify_twig -y`
-8. Log in and set your custom theme to be the default
+8. Set your custom theme to be the default `drush config-set system.theme default THEME_NAME -y`
 
 Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-vs.-pattern-library/drupal-faq.md).
 
 _Note: Once you've created your custom theme, you can remove Emulsify as a dependency of your project. If you'd like to get updates as we push them, solely for educational/best-practice information, feel free to leave it in and receive the updates. Updating Emulsify will not affect your custom theme in any way. You should not however enable both projects - only your custom theme._
+
+_If you do decide to remove the Emulsify Design System dependency, make sure to move the two requires from its composer.json into your project-root composer.json. \(The components, and emulsify\_twig modules are required for your custom theme to function, and need to be required somewhere in the composer chain.\)_
 
 #### Non-Composer \(e.g. tarball download from drupal.org\)
 
