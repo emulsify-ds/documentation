@@ -4,7 +4,7 @@ description: Customizable Styleguide + Storybook Development + Drupal 8 theme
 
 # Emulsify Design System
 
-Emulsify is a full Design System encompassing both a [Storybook](https://storybook.js.org/)/[Webpack](https://webpack.js.org/) development environment, a customizable Styleguide powered by [GatsbyJS](https://www.gatsbyjs.org/), and a [Drupal](https://www.drupal.org/) 8 starterkit theme. The new ecosystem breaks these into separate parts depending on your project's needs.
+Emulsify is a full Design System encompassing both a [Storybook](https://storybook.js.org/)/[Webpack](https://webpack.js.org/) development environment, a customizable Style guide powered by [GatsbyJS](https://www.gatsbyjs.org/), and a [Drupal](https://www.drupal.org/) 8 starter kit theme. The new ecosystem breaks these into separate parts depending on your project's needs.
 
 ### Storybook + Drupal
 
@@ -14,9 +14,9 @@ Emulsify is a full prototyping development environment using [Storybook](https:/
 * [Usage](usage/commands.md)
 * [Upgrading](installation/upgrading.md)
 
-### Styleguide \(coming early 2020\)
+### Style guide \(coming early 2020\)
 
-Emulsify Design System contains a fully customizable Styleguide powered by [GatsbyJS](https://www.gatsbyjs.org/). The Styleguide is  a Gatsby theme, and instructions for installation and the project can be found [here](https://github.com/emulsify-ds/gatsby-theme-emulsify).
+Emulsify Design System contains a fully customizable Style guide powered by [GatsbyJS](https://www.gatsbyjs.org/). The Style guide is  a Gatsby theme, and instructions for installation and the project can be found [here](https://github.com/emulsify-ds/gatsby-theme-emulsify).
 
 * [Installation](installation/styleguide-only.md)
 * Usage \(coming soon\)
