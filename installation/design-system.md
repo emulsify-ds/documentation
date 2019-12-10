@@ -27,7 +27,7 @@ description: Install the Emulsify design system for prototyping and/or as a Drup
 7. Enable your theme and its dependencies\*`drush then THEME_NAME -y && drush en components emulsify_twig -y`
 8. Set your custom theme to be the default `drush config-set system.theme default THEME_NAME -y`
 
-\* `drush then` is the correct command for drush versions &gt;= 9. `drush en` is the command to use for drush versions &lt;= 8.
+\* `drush then` is the correct command for Drush versions &gt;= 9. `drush en` is the command to use for Drush versions &lt;= 8.
 
 Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-vs.-pattern-library/drupal-faq.md).
 
