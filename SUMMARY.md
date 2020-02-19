@@ -5,7 +5,7 @@
 ## Installation
 
 * [Component Library](installation/design-system.md)
-* [Styleguide Only](installation/styleguide-only.md)
+* [Style Guide](installation/styleguide-only.md)
 * [Upgrading](installation/upgrading.md)
 
 ## Usage
