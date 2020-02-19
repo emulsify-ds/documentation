@@ -1,12 +1,8 @@
 ---
-description: Install Gatsby Style Guide
+description: Install only Gatsby Styleguide (Coming Soon)
 ---
 
-# Style Guide
+# Styleguide Only
 
-### Standalone
-
-### Within Emulsify Drupal
-
-
+### Coming Soon..
 
