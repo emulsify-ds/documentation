@@ -1,8 +1,10 @@
 ---
-description: Install the Emulsify design system for prototyping and/or as a Drupal theme
+description: >-
+  Install the component library (Storybook/Webpack) for prototyping and/or as a
+  Drupal theme
 ---
 
-# Design System
+# Component Library
 
 1. [Drupal Installation](design-system.md#drupal-installation)
 2. [Standalone Installation](design-system.md#standalone-installation-prototyping-and-or-contribution)
@@ -53,4 +55,6 @@ Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-v
 ### Standalone Installation \(prototyping and/or contribution\)
 
 `yarn` or `npm install`
+
+To create a custom clone with your project's name, you can run `php emulsify.php "New Theme" --machine-name new_theme --path none`. This will create a custom version alongside your original \(which can now be deleted\).
 
