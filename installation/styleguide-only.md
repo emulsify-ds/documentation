@@ -1,5 +1,5 @@
 ---
-description: Install Gatsby Style Guide
+description: 'Powered by Gatsby, MDX and Theme UI'
 ---
 
 # Style Guide
