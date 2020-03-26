@@ -16,7 +16,7 @@ As per Gatsby theme best practices, this repo is a Yarn workspace containing the
 
 To install just the Gatsby theme in your project, run:
 
-`npm i gatsby-theme-emulsify`
+`npm i gatsby gatsby-theme-emulsify`
 
 #### Setting up Basic Site Information
 
