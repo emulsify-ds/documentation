@@ -18,6 +18,8 @@ To install just the Gatsby theme in your project, run:
 
 `npm i gatsby gatsby-theme-emulsify`
 
+_Note: If you're using Emulsify Drupal, run this inside your theme root_
+
 #### Setting up Basic Site Information
 
 Create a local `gatsby-config.js` file \(see [the example one](https://github.com/emulsify-ds/gatsby-theme-emulsify-workspace/blob/master/example/gatsby-config.js) for documented options\) and enter your basic site information in the `siteMetadata` fields.
