@@ -14,7 +14,7 @@ Emulsify is a full prototyping development environment using [Storybook](https:/
 * [Usage](usage/commands.md)
 * [Upgrading](installation/upgrading.md)
 
-### Style guide \(coming early 2020\)
+### Style guide
 
 Emulsify Design System contains a fully customizable style guide powered by [GatsbyJS](https://www.gatsbyjs.org/). The style guide is a Gatsby theme, and instructions for installation and usage can be found [here](https://github.com/emulsify-ds/gatsby-theme-emulsify).
 
