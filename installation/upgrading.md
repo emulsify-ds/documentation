@@ -37,7 +37,7 @@ description: Upgrading from the deprecated Emulsify Pattern Lab
 
 ### Optional Steps \(depending on your installation\)
 
-1. Move any custom references inside `custom/nyusteinhardt_old/components/_meta/_00-head|_01-foot.twig` into `.storybook/preview-head.html` \(see [Storybook docs](https://storybook.js.org/docs/configurations/add-custom-head-tags/) for details\) and fix any reference paths. An example of this might be as follows:
+1. Move any custom references inside `custom/old_theme/components/_meta/_00-head|_01-foot.twig` into `.storybook/preview-head.html` \(see [Storybook docs](https://storybook.js.org/docs/configurations/add-custom-head-tags/) for details\) and fix any reference paths. An example of this might be as follows:
 
 ```text
 <!-- Old _00-head.twig -->
