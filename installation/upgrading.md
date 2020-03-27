@@ -56,7 +56,7 @@ To complete the step above, you would add this `js` directory to the Storybook c
 "build-storybook": "build-storybook -s ./dist, ./images, ./js -o .out",
 ```
 
-     2. You may need to copy over new Emulsify styles, e.g. for [the colors](https://github.com/emulsify-ds/gatsby-starter-emulsify-drupal/blob/drupal-fixes/components/00-base/global/01-colors/_color-vars.scss#L16-L85).
+     2. You may need to copy over new Emulsify styles, e.g. for [the colors](https://github.com/emulsify-ds/emulsify-drupal/blob/develop/components/00-base/01-colors/_color-vars.scss).
 
 ### Writing Stories
 
