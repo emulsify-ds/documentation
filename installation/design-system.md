@@ -20,8 +20,8 @@ description: >-
 
 #### Composer \(recommended\)
 
-1. Require emulsify in your project `composer require emulsify-ds/emulsify-design-system`
-2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify-design-system`
+1. Require emulsify in your project `composer require emulsify-ds/emulsify-drupal`
+2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify-drupal`
 3. Create your new custom theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
 4. Move into your new custom theme directory `cd web/themes/custom/THEME_NAME/`
 5. Install the theme dependencies `yarn` or `npm install`
@@ -35,12 +35,12 @@ Troubleshooting Installation: See [Drupal Installation FAQ](../help/styleguide-v
 
 _Note: Once you've created your custom theme, you can remove Emulsify as a dependency of your project. If you'd like to get updates as we push them, solely for educational/best-practice information, feel free to leave it in and receive the updates. Updating Emulsify will not affect your custom theme in any way. You should not however enable both projects - only your custom theme._
 
-_If you do decide to remove the Emulsify Design System dependency, make sure to move the two requires from its composer.json into your project-root composer.json. \(The components, and emulsify\_twig modules are required for your custom theme to function, and need to be required somewhere in the composer chain.\)_
+_If you do decide to remove the Emulsify Drupal dependency, make sure to move the two requires from its composer.json into your project-root composer.json. \(The components, and emulsify\_twig modules are required for your custom theme to function, and need to be required somewhere in the composer chain.\)_
 
 #### Non-Composer \(e.g. tarball download from drupal.org\)
 
 1. `cd themes/contrib` \(You may need to create this directory\)
-2. `composer create-project emulsify-ds/emulsify-design-system --stability dev --no-interaction emulsify`
+2. `composer create-project emulsify-ds/emulsify-drupal --stability dev --no-interaction emulsify`
 3. Move into the emulsify theme `cd emulsify`
 4. Create your new theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
 5. Move into your cloned theme directory `cd web/themes/custom/THEME_NAME/`
