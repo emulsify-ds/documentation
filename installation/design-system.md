@@ -23,7 +23,7 @@ description: >-
 1. Require emulsify in your project `composer require emulsify-ds/emulsify-drupal`
 2. Move into the contrib Emulsify theme directory`cd web/themes/contrib/emulsify-drupal`
 3. Create your new custom theme by cloning emulsify `php emulsify.php "THEME NAME"` \(Run `php emulsify.php -h` for other available options\)
-4. Move into your new custom theme directory `cd web/themes/custom/THEME_NAME/`
+4. Move into your new custom theme directory `cd ../../custom/THEME_NAME/`
 5. Install the theme dependencies `yarn` or `npm install`
 6. Build theme `yarn build`
 7. Enable your theme and its dependencies\*`drush then THEME_NAME -y && drush en components emulsify_twig -y`
