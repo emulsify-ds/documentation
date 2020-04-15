@@ -1,10 +1,8 @@
----
-description: Customizable Style Guide + Storybook Development
----
+<p align="center"><img src="logo.png" width="400"/></p>
 
 # Emulsify Design System
 
-The Emulsify Gatsby Theme is a full Design System encompassing a [Storybook](https://storybook.js.org/) development environment, a customizable style guide powered by [GatsbyJS](https://www.gatsbyjs.org/), as well as some other projects like a [Drupal](https://www.drupal.org/) 8 starter kit theme. The new ecosystem breaks these into separate parts depending on your project's needs.
+Emulsify is an open-source tool for creating design systems with reusable components and clear guidelines for teams. Emulsify helps organizations scale their design while reducing cost, streamlining workflows, and improving accessibility.
 
 ### Storybook + Drupal
 
@@ -20,4 +18,3 @@ Emulsify Design System contains a fully customizable style guide powered by [Gat
 
 * [Installation](installation/styleguide-only.md)
 * Usage \(coming soon\)
-
