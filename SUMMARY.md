@@ -20,6 +20,7 @@
 
 ## Help
 
+* [Adding 3rd party libraries (e.g., jQuery)](help/3rd-party-libraries.md)
 * [Tutorials/Videos](help/tutorials-videos.md)
 * [FAQ](help/styleguide-vs.-pattern-library/README.md)
   * [Drupal FAQ](help/styleguide-vs.-pattern-library/drupal-faq.md)
