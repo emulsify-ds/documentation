@@ -32,8 +32,8 @@ global.$ = jquery;
 Import this file in ``./storybook/config.js``:
 
 ```javascript
- import { action } from '@storybook/addon-actions';
-+import './jquery-global.js';
+   import { action } from '@storybook/addon-actions';
++  import './jquery-global.js';
 
 ```
 
@@ -44,14 +44,13 @@ This ensures that jQuery is loaded before other libraries. [See this explanation
 Add the following to ``./storybook/webpack.config.js``:
 
 ```json
-     loader: 'eslint-loader',
-     options: {
-       cache: true,
+   loader: 'eslint-loader',
+   options: {
+     cache: true,
 +      globals: [
 +        'jQuery'
 +      ],
-     },
-   });
+   },
 ```
 
 ### Add jQuery as a Global to ESLint config 
@@ -90,27 +89,27 @@ Create ``components/02-molecules/status/status.js`` and add the following:
 Add the new JS file to the ``components/02-molecules/status/status.stories.js`` and include the DrupalBehaviors effect:
 
 ```javascript
- import React from 'react';
-+import { useEffect } from '@storybook/client-api';
+  import React from 'react';
++ import { useEffect } from '@storybook/client-api';
  
- import status from './status.twig';
+  import status from './status.twig';
  
- import statusData from './status.yml';
+  import statusData from './status.yml';
  
-+import './status';
++ import './status';
 +
- /**
-  * Storybook Definition.
-  */
- export default { title: 'Molecules/Status' };
+  /**
+   * Storybook Definition.
+   */
+  export default { title: 'Molecules/Status' };
  
--export const statusExamples = () => (
--  <div dangerouslySetInnerHTML={{ __html: status(statusData) }} />
--);
-+export const statusExamples = () => {
-+  useEffect(() => Drupal.attachBehaviors(), []);
-+  return <div dangerouslySetInnerHTML={{ __html: status(statusData) }} />;
-+};
+- export const statusExamples = () => (
+-   <div dangerouslySetInnerHTML={{ __html: status(statusData) }} />
+- );
++ export const statusExamples = () => {
++   useEffect(() => Drupal.attachBehaviors(), []);
++   return <div dangerouslySetInnerHTML={{ __html: status(statusData) }} />;
++ };
 ```
 
 Now if you run the storybook ``yarn develop`` you should see a blinking error message in the status molecule.
@@ -120,14 +119,14 @@ Now if you run the storybook ``yarn develop`` you should see a blinking error me
 Add the JS file to the theme library by editing ``MY_THEME.libraries.yml``:
 
 ```yml
-     - core/drupal
+      - core/drupal
 +
-+status:
-+  js:
-+    dist/js/02-molecules/status/status.js: {}
-+  dependencies:
-+    - core/drupal
-+    - core/jquery
++ status:
++   js:
++     dist/js/02-molecules/status/status.js: {}
++   dependencies:
++     - core/drupal
++     - core/jquery
 ```
 
 Make sure to include the drupal and jquery core libraries as dependencies. They will both be loaded before your JS file in Drupal.
@@ -135,7 +134,7 @@ Make sure to include the drupal and jquery core libraries as dependencies. They 
 The library then needs to be loaded in the component twig template. In this case edit ``components/02-molecules/status/status.stories.js`` and add:
 
 ```php
-+{{ attach_library('THEME_NAME/status') }}
++ {{ attach_library('THEME_NAME/status') }}
 ```
 
 #### Add jQuery Once
@@ -150,7 +149,7 @@ Add add it to your the ``./storybook/config.js`` file:
 
 ```javascript
   import './jquery-global.js';
-+  import once from 'jquery-once';
++ import once from 'jquery-once';
 ```
 
 ## Libraries for Individual Components
@@ -166,10 +165,8 @@ Add an external library using yarn by adding it to your project ``yarn add LIBRA
 External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, ``yarn add storybook-external-links`` and add to the ``./storybook/config.js`` or an individual story file:
 
 ```javascript
-+import withExternalLinks from 'storybook-external-links';
-+const url = '//[URL TO LIBRARY]';
-+const externalLinkDecorator = withExternalLinks(url);
-+addDecorator(externalLinkDecorator);
++ import withExternalLinks from 'storybook-external-links';
++ const url = '//[URL TO LIBRARY]';
++ const externalLinkDecorator = withExternalLinks(url);
++ addDecorator(externalLinkDecorator);
 ```
-
-
