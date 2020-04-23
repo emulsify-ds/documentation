@@ -15,7 +15,7 @@ Use the following steps to make jQuery available to your component javascript fi
 
 #### Add jQuery Library
 
-```
+```bash
 yarn add jquery
 ```
 
@@ -52,6 +52,17 @@ Add the following to ``./storybook/webpack.config.js``:
 +      ],
      },
    });
+```
+
+### Add jQuery as a Global to ESLint config 
+
+Add the following to ``.eslintrc.yml``:
+
+```yml
+    describe: true
+    Drupal: true
++   jQuery: true
+  parser: babel-eslint
 ```
 
 ### Example: Use jQuery in a Component
@@ -127,6 +138,21 @@ The library then needs to be loaded in the component twig template. In this case
 +{{ attach_library('THEME_NAME/status') }}
 ```
 
+#### Add jQuery Once
+
+It is a best practice to [use jQuery once()](https://www.drupal.org/docs/8/api/javascript-api/javascript-api-overview#s-drupalbehaviors) when using jQuery in Drupal to keep jQuery functions from firing multiple times. To include jQuery ``once()`` add it to your project:
+
+```bash
+yarn add jquery-once
+```
+
+Add add it to your the ``./storybook/config.js`` file:
+
+```javascript
+  import './jquery-global.js';
++  import once from 'jquery-once';
+```
+
 ## Libraries for Individual Components
 
 There are a couple of strategies for loading individual libraries.
@@ -137,7 +163,7 @@ Add an external library using yarn by adding it to your project ``yarn add LIBRA
 
 ### Load Library from an External URL
 
-External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, ``yarn add storybook-external-links`` and add to the  ``./storybook/config.js`` or an individual story file:
+External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, ``yarn add storybook-external-links`` and add to the ``./storybook/config.js`` or an individual story file:
 
 ```javascript
 +import withExternalLinks from 'storybook-external-links';
