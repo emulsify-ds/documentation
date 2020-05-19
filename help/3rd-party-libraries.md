@@ -119,7 +119,6 @@ Now if you run the storybook ``yarn develop`` you should see a blinking error me
 Add the JS file to the theme library by editing ``MY_THEME.libraries.yml``:
 
 ```yml
-      - core/drupal
 +
 + status:
 +   js:
@@ -131,7 +130,7 @@ Add the JS file to the theme library by editing ``MY_THEME.libraries.yml``:
 
 Make sure to include the drupal and jquery core libraries as dependencies. They will both be loaded before your JS file in Drupal.
 
-The library then needs to be loaded in the component twig template. In this case edit ``components/02-molecules/status/status.stories.js`` and add:
+The library then needs to be loaded in the component twig template. In this case edit ``components/02-molecules/status/status.stories.twig`` and add:
 
 ```php
 + {{ attach_library('THEME_NAME/status') }}
