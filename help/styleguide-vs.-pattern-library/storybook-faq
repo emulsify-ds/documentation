@@ -1,0 +1,9 @@
+# Storybook FAQ
+
+### When I build Storybook, it begins copying files and directories outside of my project. What gives?
+
+Ensure that there are no spaces in your `build-storybook` command after the `-s` flag within `package.json`.
+
+### Example
+Do: `"build-storybook": "build-storybook -s ./dist,./images -o .out"`
+Don't: `"build-storybook": "build-storybook -s ./dist, ./images -o .out"`
