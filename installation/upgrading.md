@@ -6,9 +6,10 @@ description: Upgrading from the deprecated Emulsify Pattern Lab
 
 ### Required Steps
 
-1. Rename old theme directory.
-2. Follow [Drupal installation instructions](design-system.md#drupal-installation) \(be sure and use your old name and machine name in the php script, e.g., `php emulsify.php "THEME NAME" --machine-name THEME_NAME`
-3. Replace contents of the new theme's `components` directory with your old theme's `components/_patterns` contents. Be sure and change any library paths in style.scss, like so:
+1. Disable old theme
+2. Rename old theme directory to something else \(e.g., `THEMENAME_old`\) and rename the old theme's info.yml file as well \(e.g., `THEMENAME_old.info.yml`\)
+3. Follow [Drupal installation instructions](design-system.md#drupal-installation) \(be sure and use your old name and machine name in the php script, e.g., `php emulsify.php "THEME NAME" --machine-name THEME_NAME`
+4. Replace contents of the new theme's `components` directory with your old theme's `components/_patterns` contents \(if you don't want to have a lot of path changes you can keep them in the `_patterns` subdirectory\). Be sure and change any library paths in style.scss, like so:
 
 ```text
 // Old
@@ -30,10 +31,10 @@ description: Upgrading from the deprecated Emulsify Pattern Lab
 *.libraries.yml
 ```
 
-     6. Uninstall/remove the unified\_twig\_extensions module, and enable            
-           [emulsify\_twig](https://www.drupal.org/project/emulsify_twig).  
-     7. Remove `node_modules` directory and run `yarn` or `npm install`.  
-     8. Run `yarn develop` or `npm develop`.
+     6. Disable/uninstall/remove the unified\_twig\_extensions module, and enable the new [emulsify\_twig](https://www.drupal.org/project/emulsify_twig) module.  
+     7. Enable new theme in Drupal  
+     8. Run `composer remove fourkitchens/emulsify`  
+     9. Run `yarn develop` or `npm develop`.
 
 ### Optional Steps \(depending on your installation\)
 

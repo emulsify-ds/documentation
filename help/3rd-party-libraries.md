@@ -1,11 +1,10 @@
 ---
-
 description: Helpful information for those new to component-driven design
 ---
 
-# Adding 3rd Party Libraries 
+# Adding 3rd party libraries \(e.g., jQuery\)
 
-## Global Libraries (ie jQuery)
+## Global Libraries \(ie jQuery\)
 
 There are some instances in which a library should be available to all components, i.e. "global."
 
@@ -21,7 +20,7 @@ yarn add jquery
 
 ### Add jQuery to Storybook Config
 
-Create a ``./storybook/jquery-global.js`` file and add the following:
+Create a `./storybook/jquery-global.js` file and add the following:
 
 ```javascript
 import jquery from 'jquery';
@@ -29,21 +28,20 @@ global.jQuery = jquery;
 global.$ = jquery;
 ```
 
-Import this file in ``./storybook/config.js``:
+Import this file in `./storybook/config.js`:
 
 ```javascript
    import { action } from '@storybook/addon-actions';
 +  import './jquery-global.js';
-
 ```
 
-This ensures that jQuery is loaded before other libraries. [See this explanation for details](https://stackoverflow.com/a/39820703). 
+This ensures that jQuery is loaded before other libraries. [See this explanation for details](https://stackoverflow.com/a/39820703).
 
 ### Add jQuery as a Global in Webpack
 
-Add the following to ``./storybook/webpack.config.js``:
+Add the following to `./storybook/webpack.config.js`:
 
-```json
+```javascript
    loader: 'eslint-loader',
    options: {
      cache: true,
@@ -53,11 +51,11 @@ Add the following to ``./storybook/webpack.config.js``:
    },
 ```
 
-### Add jQuery as a Global to ESLint config 
+### Add jQuery as a Global to ESLint config
 
-Add the following to ``.eslintrc.yml``:
+Add the following to `.eslintrc.yml`:
 
-```yml
+```text
     describe: true
     Drupal: true
 +   jQuery: true
@@ -70,7 +68,7 @@ The following example will cause the error status message to blink.
 
 #### Create JS file
 
-Create ``components/02-molecules/status/status.js`` and add the following:
+Create `components/02-molecules/status/status.js` and add the following:
 
 ```javascript
 ($ => {
@@ -86,23 +84,23 @@ Create ``components/02-molecules/status/status.js`` and add the following:
 
 #### Update the Status Story
 
-Add the new JS file to the ``components/02-molecules/status/status.stories.js`` and include the DrupalBehaviors effect:
+Add the new JS file to the `components/02-molecules/status/status.stories.js` and include the DrupalBehaviors effect:
 
 ```javascript
   import React from 'react';
 + import { useEffect } from '@storybook/client-api';
- 
+
   import status from './status.twig';
- 
+
   import statusData from './status.yml';
- 
+
 + import './status';
 +
   /**
    * Storybook Definition.
    */
   export default { title: 'Molecules/Status' };
- 
+
 - export const statusExamples = () => (
 -   <div dangerouslySetInnerHTML={{ __html: status(statusData) }} />
 - );
@@ -112,13 +110,13 @@ Add the new JS file to the ``components/02-molecules/status/status.stories.js`` 
 + };
 ```
 
-Now if you run the storybook ``yarn develop`` you should see a blinking error message in the status molecule.
+Now if you run the storybook `yarn develop` you should see a blinking error message in the status molecule.
 
 #### Add JS File to Theme Library and Load in the Template
 
-Add the JS file to the theme library by editing ``MY_THEME.libraries.yml``:
+Add the JS file to the theme library by editing `MY_THEME.libraries.yml`:
 
-```yml
+```text
 +
 + status:
 +   js:
@@ -130,7 +128,7 @@ Add the JS file to the theme library by editing ``MY_THEME.libraries.yml``:
 
 Make sure to include the drupal and jquery core libraries as dependencies. They will both be loaded before your JS file in Drupal.
 
-The library then needs to be loaded in the component twig template. In this case edit ``components/02-molecules/status/status.stories.twig`` and add:
+The library then needs to be loaded in the component twig template. In this case edit `components/02-molecules/status/status.stories.twig` and add:
 
 ```php
 + {{ attach_library('THEME_NAME/status') }}
@@ -138,13 +136,13 @@ The library then needs to be loaded in the component twig template. In this case
 
 #### Add jQuery Once
 
-It is a best practice to [use jQuery once()](https://www.drupal.org/docs/8/api/javascript-api/javascript-api-overview#s-drupalbehaviors) when using jQuery in Drupal to keep jQuery functions from firing multiple times. To include jQuery ``once()`` add it to your project:
+It is a best practice to [use jQuery once\(\)](https://www.drupal.org/docs/8/api/javascript-api/javascript-api-overview#s-drupalbehaviors) when using jQuery in Drupal to keep jQuery functions from firing multiple times. To include jQuery `once()` add it to your project:
 
 ```bash
 yarn add jquery-once
 ```
 
-Add add it to your the ``./storybook/config.js`` file:
+Add add it to your the `./storybook/config.js` file:
 
 ```javascript
   import './jquery-global.js';
@@ -157,11 +155,11 @@ There are a couple of strategies for loading individual libraries.
 
 ### Add with Yarn
 
-Add an external library using yarn by adding it to your project ``yarn add LIBRARY`` and then importing where needed.
+Add an external library using yarn by adding it to your project `yarn add LIBRARY` and then importing where needed.
 
 ### Load Library from an External URL
 
-External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, ``yarn add storybook-external-links`` and add to the ``./storybook/config.js`` or an individual story file:
+External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, `yarn add storybook-external-links` and add to the `./storybook/config.js` or an individual story file:
 
 ```javascript
 + import withExternalLinks from 'storybook-external-links';
@@ -169,3 +167,4 @@ External libraries, for example from a CDN, can be loaded with [Storybook Extern
 + const externalLinkDecorator = withExternalLinks(url);
 + addDecorator(externalLinkDecorator);
 ```
+
