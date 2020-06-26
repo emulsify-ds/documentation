@@ -1,4 +1,4 @@
-# Tutorials/Videos
+# Tutorials and Videos
 
 Emulsify includes by default example components that cover the most common situations, and the best way to learn is to jump into the code. That said, there are other resources available:
 
