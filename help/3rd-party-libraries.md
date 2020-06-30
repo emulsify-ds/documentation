@@ -2,9 +2,9 @@
 description: Helpful information for those new to component-driven design
 ---
 
-# Adding 3rd party libraries \(e.g., jQuery\)
+# Adding 3rd-party libraries
 
-## Global Libraries \(ie jQuery\)
+## Global Libraries \(e.g. jQuery\)
 
 There are some instances in which a library should be available to all components, i.e. "global."
 
