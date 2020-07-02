@@ -20,7 +20,7 @@ yarn add jquery
 
 ### Add jQuery to Storybook Config
 
-Create a `./storybook/jquery-global.js` file and add the following:
+Create a `/.storybook/jquery-global.js` file and add the following:
 
 ```javascript
 import jquery from 'jquery';
@@ -39,7 +39,7 @@ This ensures that jQuery is loaded before other libraries. [See this explanation
 
 ### Add jQuery as a Global in Webpack
 
-Add the following to `./storybook/webpack.config.js`:
+Add the following to `/.storybook/webpack.config.js`:
 
 ```javascript
    loader: 'eslint-loader',
@@ -142,7 +142,7 @@ It is a best practice to [use jQuery once\(\)](https://www.drupal.org/docs/8/api
 yarn add jquery-once
 ```
 
-Add add it to your the `./storybook/config.js` file:
+Add add it to your the `/.storybook/config.js` file:
 
 ```javascript
   import './jquery-global.js';
@@ -159,7 +159,7 @@ Add an external library using yarn by adding it to your project `yarn add LIBRAR
 
 ### Load Library from an External URL
 
-External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, `yarn add storybook-external-links` and add to the `./storybook/config.js` or an individual story file:
+External libraries, for example from a CDN, can be loaded with [Storybook External Links](https://github.com/jhta/storybook-external-links). Install, `yarn add storybook-external-links` and add to the `/.storybook/config.js` or an individual story file:
 
 ```javascript
 + import withExternalLinks from 'storybook-external-links';
