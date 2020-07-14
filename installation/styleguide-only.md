@@ -24,6 +24,9 @@ Create a local `gatsby-config.js` file \(see [the example one](https://github.co
 
 See Style Guide Usage for further info:
 
-* 
+* [Documenting Pages](../style-guide-usage/documenting-pages.md)
+* [Documenting Components](../style-guide-usage/documenting-components.md)
+* [Other Functionality](../style-guide-usage/other-functionality.md)
+
 
 
