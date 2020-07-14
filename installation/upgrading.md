@@ -1,5 +1,5 @@
 ---
-description: Upgrading from the deprecated Emulsify Pattern Lab
+description: Upgrading from the deprecated Emulsify Pattern Lab to Emulsify Drupal
 ---
 
 # Upgrading

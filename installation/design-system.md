@@ -4,7 +4,7 @@ description: >-
   Drupal theme
 ---
 
-# Component Library
+# Emulsify Drupal
 
 1. [Drupal Installation](design-system.md#drupal-installation)
 2. [Standalone Installation](design-system.md#standalone-installation-prototyping-and-or-contribution)

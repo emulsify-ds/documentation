@@ -1,8 +1,8 @@
 ---
-description: Helpful information for those new to component-driven design
+description: How to add libraries like jQuery to your project.
 ---
 
-# Adding 3rd-party libraries
+# Emulsify Drupal: Adding 3rd-party libraries
 
 ## Global Libraries \(e.g. jQuery\)
 
@@ -136,7 +136,7 @@ The library then needs to be loaded in the component twig template. In this case
 
 #### Add jQuery Once
 
-It is a best practice to [use jQuery once\(\)](https://www.drupal.org/docs/8/api/javascript-api/javascript-api-overview#s-drupalbehaviors) when using jQuery in Drupal to keep jQuery functions from firing multiple times. To include jQuery `once()` add it to your project:
+To include jQuery `once()` add it to your project:
 
 ```bash
 yarn add jquery-once

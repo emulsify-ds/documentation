@@ -8,7 +8,7 @@ description: >-
 
 ## Sharing Across Multiple Projects
 
-Emulsify allows you to use shared packages across multiple projects. If you are a part of a large organization, this is an excellent way to provide consistency, reuse and save time/money across all properties. The first step involves making decisions around how you want to organize your organization and projects. Emulsify is not opinionated on this, as organizations will operate in a multitude of ways. We will use one common way as an example to show the details. 
+Emulsify allows you to use shared packages across multiple projects. If you are a large organization, this is an excellent way to provide consistency, reuse and save time/money across all properties. The first step is to make some decisions around how you want to organize your organization and projects. Emulsify is not opinionated on this, as organizations will operate in a multitude of ways. We will use one common way as an example to show how it can be set up. 
 
 One common way to package components and styles is to have one package for components \(for a given language\) and one package for shared styling. That way, you can share styling across multiple languages and components per language to any relevant project. So, here's an imaginary set of packages:
 
@@ -40,7 +40,7 @@ Assuming you have a Sass stylesheet named `style.css` that compiles all the styl
 Next, we need to tell Storybook and Drupal where to find the component Twig files. First let's start with Storybook. Storybook uses Webpack to load files, and since our Twig components are Node packages, we need to tell Webpack a few things \(see links for Western University examples of how to do this\): 1. [How to watch/compile for changes in these files](https://github.com/emulsify-ds/westernuni/blob/master/web/themes/custom/western-up/.storybook/webpack.config.js#L7-L18), 2. [Where to look for these files](https://github.com/emulsify-ds/westernuni/blob/master/web/themes/custom/western-up/.storybook/webpack.config.js#L29-L43), and 3. [To include those in our linting](https://github.com/emulsify-ds/westernuni/blob/master/web/themes/custom/western-up/.storybook/webpack.config.js#L94-L95). Let's walk through a couple of places in this file that may be confusing - see comments in file for clarification:
 
 ```javascript
-// In the case of using yarn/npm link, this will help.
+// In the case of using yarn/npm link to link and develop your packages locally, this will help.
 config.resolve = { symlinks: false }
 
 // For hot reloading (watch), ignore node_modules except the western-up-scss/twig directories. 
@@ -80,7 +80,7 @@ yarn link global-sass
 yarn link global-twig
 ```
 
-Now, your project will use your local versions of those packages, and with the changes in place above, your Storybook will also hot reload when editing those files.
+Now, your project will use your local versions of those packages, and with the changes in place above, your Storybook will also hot reload when editing those files!
 
 #### Drupal Twig
 

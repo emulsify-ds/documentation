@@ -1,6 +1,6 @@
 # Writing Stories
 
-Writing components is still the same as it has always been in Emulsify \(Create your component Twig/React, .scss and/or .js files. However, you will now want to create stories to show your components in Storybook. See below for some examples:
+Writing components is still the same as it has always been in Emulsify \(Create your component Twig/React, .scss and/or .js files. However, for Storybook you will now want to create "stories" to add your components to the Storybook UI. See below for some examples:
 
 ### Simple annotated example
 
@@ -57,28 +57,26 @@ export const cardWithBackground = () => (
 
 ```text
 import React from 'react';
-// We use this Storybook hook to add our JavaScript
-import { useEffect } from '@storybook/client-api';
 
 import tabs from './tabs.twig';
 
 import tabData from './tabs.yml';
 
 // Import your JavaScript file as you normally would in Node.js
+// Assuming you use Drupal behaviors it will automatically be loaded.
 import './tabs';
 
 export default { title: 'Molecules/Tabs' };
 
 // Apply the Storybook hook with your JS function inside of it
 // before returning your component.
-export const JSTabs = () => {
-  useEffect(() => Drupal.attachBehaviors(), []);
-  return <div dangerouslySetInnerHTML={{ __html: tabs(tabData) }} />;
-};
+export const JSTabs = () => (
+  <div dangerouslySetInnerHTML={{ __html: tabs(tabData) }} />;
+);
 
 ```
 
-### React and Twig Side-by-side!
+### React and Twig Side-by-side
 
 \(From `components/01-atoms/buttons/buttons.stories.js` with added comments\)
 

@@ -1,12 +1,12 @@
 # Webpack & Babel
 
-Emulsify Design System uses [Webpack](https://webpack.js.org/) and [Babel](https://babeljs.io/) across the entire project. See below for instructions on adding/editing specific Webpack and/or Babel configuration:
+Emulsify Design System uses [Webpack](https://webpack.js.org/) and [Babel](https://babeljs.io/) across all projects. See below for instructions on adding/editing specific Webpack and/or Babel configuration:
 
 ### Webpack
 
 #### Storybook
 
-Storybook's configuration including its Webpack configuration can be found in the `/.storybook` directory.  You can easily extend this configuration beyond the defaults, which include loading twig, sass, YAML and linting styles.
+Storybook's configuration including its Webpack configuration can be found in the `/.storybook` directory.  You can easily extend this configuration beyond the defaults, which for Emulsify Drupal includes loading twig, sass, YAML and linting styles.
 
 #### Project
 

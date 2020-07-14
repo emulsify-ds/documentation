@@ -4,11 +4,11 @@
 
 ## Installation
 
-* [Component Library](installation/design-system.md)
+* [Emulsify Drupal](installation/design-system.md)
 * [Style Guide](installation/styleguide-only.md)
 * [Upgrading](installation/upgrading.md)
 
-## Usage
+## Emulsify Drupal Usage <a id="usage"></a>
 
 * [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
@@ -25,6 +25,6 @@
   * [Drupal FAQ](help/styleguide-vs.-pattern-library/drupal-faq.md)
 * [Tutorials and Videos](help/tutorials-videos.md)
 * [Component-Driven Design](help/cdd.md)
-* [Adding 3rd-party libraries](help/3rd-party-libraries.md)
+* [Emulsify Drupal: Adding 3rd-party libraries](help/3rd-party-libraries.md)
 * [Packaging For Multiple Properties](help/packaging-for-multiple-properties.md)
 
