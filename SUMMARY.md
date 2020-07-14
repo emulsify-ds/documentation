@@ -13,6 +13,12 @@
 * [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
 
+## Style Guide Usage
+
+* [Documenting Pages](style-guide-usage/documenting-pages.md)
+* [Documenting Components](style-guide-usage/documenting-components.md)
+* [Other Functionality](style-guide-usage/other-functionality.md)
+
 ## Details
 
 * [Twig Extensions](details/twig-extensions.md)
