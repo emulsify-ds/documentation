@@ -12,6 +12,7 @@
 
 * [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
+* [Accessibility Testing](usage/accessibility-testing.md)
 
 ## Style Guide Usage
 
