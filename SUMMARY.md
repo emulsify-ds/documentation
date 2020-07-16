@@ -13,6 +13,7 @@
 * [Commands](usage/commands.md)
 * [Writing Stories](usage/writing-stories.md)
 * [Accessibility Testing](usage/accessibility-testing.md)
+* [Hot Reload Drupal](usage/hot-reload-drupal.md)
 
 ## Style Guide Usage
 
