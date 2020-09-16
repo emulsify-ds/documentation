@@ -12,6 +12,12 @@ Emulsify Design System contains a fully customizable/theme-able style guide _gen
 
 #### Installation
 
+#### Quickstart
+
+Use the [Gatsby starter](https://www.gatsbyjs.com/starters/emulsify-ds/gatsby-starter-emulsify-mdx/).
+
+#### Manual Installation
+
 As per Gatsby theme best practices, this repo is a Yarn workspace containing the Gatsby theme as well as an `example` directory to see how to use it in a project.
 
 To install just the Gatsby theme in your project, run:
