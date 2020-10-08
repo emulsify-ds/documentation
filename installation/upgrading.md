@@ -34,7 +34,7 @@ description: Upgrading from the deprecated Emulsify Pattern Lab to Emulsify Drup
      6. Disable/uninstall/remove the unified\_twig\_extensions module, and enable the new [emulsify\_twig](https://www.drupal.org/project/emulsify_twig) module.  
      7. Enable new theme in Drupal  
      8. Run `composer remove fourkitchens/emulsify`  
-     9. Run `yarn develop` or `npm develop`.
+     9. Run `yarn develop` or `npm run develop`.
 
 ### Optional Steps \(depending on your installation\)
 
