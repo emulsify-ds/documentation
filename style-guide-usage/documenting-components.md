@@ -18,7 +18,7 @@ To show your Storybook components, you can now go to the MDX file where you'd li
 
 `<StorybookComponent id="button--emoji" />`
 
-The `id` for your component is the ID that Storybook uses to identify the component in their iframe, which follows this convention: `COMPONENT_DIRECTORY--COMPONTENT_NAME` \(you can find this in the Storybook URL of your component\). Put in the correct ID and you will see your live component show in your documentation! See the `example` components directory for usage ideas. Also, there is a height prop that you can configure to increase the height of the iframe depending on the nature of the component \(e.g., `<StorybookComponent id="button--emoji" height="100px" />`\).
+The `id` for your component is the ID that Storybook uses to identify the component in their iframe, which follows this convention: `COMPONENT_DIRECTORY--COMPONENT_NAME` \(you can find this in the Storybook URL of your component\). Put in the correct ID and you will see your live component show in your documentation! See the `example` components directory for usage ideas. Also, there is a height prop that you can configure to increase the height of the iframe depending on the nature of the component \(e.g., `<StorybookComponent id="button--emoji" height="100px" />`\).
 
 **Displaying Components - Component Code**
 
