@@ -102,3 +102,50 @@ export const twig = () => <div dangerouslySetInnerHTML={{ __html: button(buttonD
 export const react = () => <Button>React Button</Button>;
 ```
 
+### Using Storybook "Controls"
+
+Storybook [Controls](https://storybook.js.org/docs/react/essentials/controls) offers the ability to tweak stories via the Storybook UI for demoing different variations, etc. Here is a simple example below:
+
+```text
+import React from 'react';
+
+import button from './button.twig';
+
+import buttonData from './button.yml';
+
+/**
+ * Storybook Definition.
+ */
+export default {
+  title: 'Atoms/Button',
+  argTypes: {
+    color: {
+      control: {
+        type: 'select',
+        name: 'Color',
+        options: ['red', 'yellow', 'blue'],
+      },
+    },
+  },
+};
+
+export const Button = (args) => (
+  <div
+    dangerouslySetInnerHTML={{
+      __html: button({
+        ...buttonData,
+        button_modifiers: [
+          // By default, it contains an array of all colors.
+          Array.isArray(args.color) ? 'red' : args.color,
+        ],
+      }),
+    }}
+  />
+);
+
+Button.args = {
+  color: ['red', 'yellow', 'blue'],
+};
+
+```
+
