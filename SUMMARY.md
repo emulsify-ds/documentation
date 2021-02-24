@@ -23,7 +23,8 @@
 
 ## Details
 
-* [Twig Extensions](details/twig-extensions.md)
+* [Twig Extensions](details/twig-extensions/README.md)
+  * [Add a Custom Twig Extension](details/twig-extensions/add-a-custom-twig-extension.md)
 * [Webpack & Babel](details/webpack-and-build.md)
 
 ## Help
