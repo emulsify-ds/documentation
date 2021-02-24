@@ -76,32 +76,6 @@ export const JSTabs = () => (
 
 ```
 
-### React and Twig Side-by-side
-
-\(From `components/01-atoms/buttons/buttons.stories.js` with added comments\)
-
-```text
-import React from 'react';
-
-import button from './twig/button.twig';
-
-import buttonData from './twig/button.yml';
-
-// Import React button
-import Button from './react/Button.component';
-
-// Add component to your Storybook definition
-export default {
-  component: Button,
-  title: 'Atoms/Button',
-};
-
-export const twig = () => <div dangerouslySetInnerHTML={{ __html: button(buttonData) }} />;
-
-// Export React button
-export const react = () => <Button>React Button</Button>;
-```
-
 ### Using Storybook "Controls"
 
 Storybook [Controls](https://storybook.js.org/docs/react/essentials/controls) offers the ability to tweak stories via the Storybook UI for demoing different variations, etc. Here is a simple example below:

@@ -4,7 +4,7 @@ description: Document your project components with live Storybook examples
 
 # Documenting Components
 
-#### Documenting Components
+## Documenting Components
 
 By default, the style guide will look for component documentation in your `components` directory, but this path is also configurable via a local `gatsby-config.js` using the `componentLibPath` field. Once you have that set, create an MDX \(or Markdown\) file alongside any component in that directory to document it and the Gatsby theme will automatically consume them and add them to the reserved `Components` directory \(again, see the `example` theme components\).
 
