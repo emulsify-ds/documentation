@@ -28,10 +28,11 @@ global.jQuery = jquery;
 global.$ = jquery;
 ```
 
-Import this file in `./storybook/config.js`:
+Import this file in `./storybook/preview.js`:
 
 ```javascript
-   import { action } from '@storybook/addon-actions';
+   ...
+   import './_drupal.js';
 +  import './jquery-global.js';
 ```
 
