@@ -18,6 +18,10 @@ description: >-
 3. [Composer](https://getcomposer.org/)
 4. [Yarn](https://yarnpkg.com/) \(optional\)
 
+#### Picking a version:
+- **2.x** - Drupal 8.x compatible
+- **3.x** - Drupal 9.x compatible
+
 #### Composer \(recommended\)
 
 1. Require emulsify in your project `composer require emulsify-ds/emulsify-drupal`
