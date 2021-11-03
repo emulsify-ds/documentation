@@ -6,7 +6,7 @@ Emulsify Design System uses [Webpack](https://webpack.js.org/) and [Babel](https
 
 #### Storybook
 
-Storybook's configuration including its Webpack configuration can be found in the `/.storybook` directory.  You can easily extend this configuration beyond the defaults, which for Emulsify Drupal includes loading twig, sass, YAML and linting styles.
+Storybook's configuration including its Webpack configuration can be found in the `/.storybook` directory. You can easily extend this configuration beyond the defaults, which for Emulsify Drupal includes loading twig, sass, YAML and linting styles.
 
 #### Project
 
@@ -22,15 +22,50 @@ There are also some other niceties for feedback \(progress plugin\) and cleanup 
 
 By default, Emulsify compiles all sass files into one `style.scss` file. If you'd like to generate separate component-based css files to use in Drupal libraries, do the following:
 
-
 1. In `webpack/plugins.js` change
 
+```
+const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
+  filename: 'style.css',
+  chunkFilename: '[id].css',
+});
+```
+
+To:
+
+```
+const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
+  filename: '[name].css',
+  chunkFilename: '[id].css'
+});
+```
 
 2. In the webpack directory create a css directory with the following structure. (Each js file should import its own `<component>.scss` file. Look at `webpack/css.js` for an example.)
 
+```
+.
+└──webpack
+│  └──css
+│     │   component-1.js
+│     │   component-2.js
+```
 
 3. In webpack.common.js replace
 
+```
+entries.css = path.resolve(webpackDir, 'css.js');
+```
+
+with
+
+```
+// CSS Files.
+glob.sync(`${webpackDir}/css/*js`).forEach((file) => {
+  const baseFileName = path.basename(file);
+  const newfilePath = `css/${baseFileName.replace('.js', '')}`;
+  entries[newfilePath] = file;
+});
+```
 
 4. Now you can define CSS files in your Drupal libraries only where you need them, just like you do with js.
 
@@ -42,4 +77,3 @@ The project leverages Babel for the transpiling and minifying of JavaScript file
 
 1. **Babel config**: `./babel.config.js` \(Main config file\)
 2. **Browser Support**: `./.browserslistrc` \(used by Babel env\)
-
