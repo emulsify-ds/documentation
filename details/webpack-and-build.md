@@ -20,42 +20,21 @@ There are also some other niceties for feedback \(progress plugin\) and cleanup 
 
 ##### Create separate CSS files per component
 
-To modify the default sass behavior to compile into individual files, take the following steps:
+By default, Emulsify compiles all sass files into one `style.scss` file. If you'd like to generate separate component-based css files to use in Drupal libraries, do the following:
 
-1. In `webpack/plugins.js`
-```
-// Change this
-const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
-  filename: 'style.css',
-  chunkFilename: '[id].css',
-});
 
-// To this
-const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
-  filename: "[name].css",
-  chunkFilename: "[id].css"
-});
-```
+1. In `webpack/plugins.js` change
 
-2. In the webpack directory create a css directory with the following structure. Each .js imports their own .scss file.
 
-* webpack
-* * css
-* * * main-css.js
-* * * custom-css.js
+2. In the webpack directory create a css directory with the following structure. (Each js file should import its own `<component>.scss` file. Look at `webpack/css.js` for an example.)
 
-3. In webpack.common.js replace `entries.css` with
 
-```
-// CSS Files.
-glob.sync(`${webpackDir}/css/*js`).forEach((file) => {
-  const baseFileName = path.basename(file);
-  const newfilePath = `css/${baseFileName.replace('.js', '')}`;
-  entries[newfilePath] = file;
-});
-```
+3. In webpack.common.js replace
 
-4. Now you can create your own Drupal libraries in the Drupal theme to import the files where you need them.
+
+4. Now you can define CSS files in your Drupal libraries only where you need them, just like you do with js.
+
+5. Finally, Storybook only loads the main `styles.scss` file, by default. So make sure you add anything not globbed into that file to `.storybook/preview.js`.
 
 ### Babel
 
