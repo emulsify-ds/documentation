@@ -16,5 +16,5 @@ The Storybook panel pane is excellent for passive testing, but if you want to ut
 2. As a part of tests: `yarn test` or `npm run test` 
 3. Coverage report: `yarn coverage` 
 
-The CLI tool is flexible and can be configured to meet your project needs. Edit the [a11y.config.js](https://github.com/emulsify-ds/emulsify-drupal/blob/develop/a11y.config.js) file to set the level of severity you want to see, codes to be ignored, the runner to use and what components you would like to test.
+The CLI tool is flexible and can be configured to meet your project needs. Edit the [a11y.config.js](https://github.com/emulsify-ds/emulsify-drupal/blob/main/a11y.config.js) file to set the level of severity you want to see, codes to be ignored, the runner to use and what components you would like to test.
 
