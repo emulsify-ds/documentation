@@ -2,38 +2,41 @@
 
 * [Emulsify Design System](README.md)
 
-## Installation
+## Starters <a href="#emulsify-drupal" id="emulsify-drupal"></a>
 
-* [Emulsify Drupal](installation/design-system.md)
-* [Style Guide](installation/styleguide-only.md)
-* [Upgrading](installation/upgrading.md)
+* [Emulsify Drupal](emulsify-drupal/emulsify-drupal/README.md)
+  * [Basic Usage](emulsify-drupal/emulsify-drupal/basic-usage/README.md)
+    * [Commands](emulsify-drupal/emulsify-drupal/basic-usage/commands.md)
+    * [Writing Stories](emulsify-drupal/emulsify-drupal/basic-usage/writing-stories.md)
+  * [Advanced Usage](emulsify-drupal/emulsify-drupal/advanced-usage/README.md)
+    * [Accessibility Testing](emulsify-drupal/emulsify-drupal/advanced-usage/accessibility-testing.md)
+    * [Adding 3rd-party libraries](emulsify-drupal/emulsify-drupal/advanced-usage/3rd-party-libraries.md)
+    * [Hot Reload Drupal](emulsify-drupal/emulsify-drupal/advanced-usage/hot-reload-drupal.md)
+  * [FAQ](emulsify-drupal/emulsify-drupal/faq/README.md)
+    * [Upgrading](emulsify-drupal/emulsify-drupal/faq/upgrading.md)
 
-## Emulsify Drupal Usage <a id="usage"></a>
+## Systems
 
-* [Commands](usage/commands.md)
-* [Writing Stories](usage/writing-stories.md)
-* [Accessibility Testing](usage/accessibility-testing.md)
-* [Hot Reload Drupal](usage/hot-reload-drupal.md)
+* [Compound](systems/compound.md)
 
-## Style Guide Usage
+## Supporting Projects
 
-* [Documenting Pages](style-guide-usage/documenting-pages.md)
-* [Documenting Components](style-guide-usage/documenting-components.md)
-* [Other Functionality](style-guide-usage/other-functionality.md)
+* [Emulsify CLI](supporting-projects/emulsify-cli.md)
+* [Twig Extensions](supporting-projects/twig-extensions/README.md)
+  * [Add a Custom Twig Extension](supporting-projects/twig-extensions/add-a-custom-twig-extension.md)
+* [Webpack & Babel](supporting-projects/webpack-and-build.md)
 
-## Details
+## Style Guide
 
-* [Twig Extensions](details/twig-extensions/README.md)
-  * [Add a Custom Twig Extension](details/twig-extensions/add-a-custom-twig-extension.md)
-* [Webpack & Babel](details/webpack-and-build.md)
+* [Gatsby Theme Emulsify](style-guide/installation/README.md)
+  * [Documenting Pages](style-guide/installation/documenting-pages.md)
+  * [Documenting Components](style-guide/installation/documenting-components.md)
+  * [Other Functionality](style-guide/installation/other-functionality.md)
 
-## Help
+## Resources
 
-* [Help and Support](help/help-and-support.md)
-* [FAQ](help/styleguide-vs.-pattern-library/README.md)
-  * [Drupal FAQ](help/styleguide-vs.-pattern-library/drupal-faq.md)
-* [Tutorials and Videos](help/tutorials-videos.md)
-* [Component-Driven Design](help/cdd.md)
-* [Emulsify Drupal: Adding 3rd-party libraries](help/3rd-party-libraries.md)
-* [Packaging For Multiple Properties](help/packaging-for-multiple-properties.md)
-
+* [Help and Support](resources/help-and-support/README.md)
+  * [FAQ](resources/help-and-support/styleguide-vs.-pattern-library.md)
+  * [Tutorials and Videos](resources/help-and-support/tutorials-videos.md)
+* [Component-Driven Design](resources/cdd.md)
+* [Packaging For Multiple Properties](resources/packaging-for-multiple-properties.md)
