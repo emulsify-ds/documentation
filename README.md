@@ -10,11 +10,11 @@ Emulsify Design System contains multiple packages, which can be used individuall
 
 Starters contain application-specific configuration and files. For example, the Drupal starter contains the `.info.yml` file that defines the Drupal theme's name and other metadata as well as other Drupal-specific files.
 
-### ****[**Drupal**](https://github.com/emulsify-ds/emulsify-drupal)****
+### [**Drupal**](https://github.com/emulsify-ds/emulsify-drupal)
 
 Emulsify Drupal is a full prototyping development environment using [Storybook](https://storybook.js.org) as a component library and [Webpack](https://webpack.js.org) as a build engine. It is also a [Drupal](https://www.drupal.org) theme. It can be used as a standalone prototyping tool or inside a Drupal installation.
 
-### ****[**Wordpress**](https://github.com/emulsify-ds/emulsify-wordpress-theme)****
+### [**Wordpress**](https://github.com/emulsify-ds/emulsify-wordpress-theme)
 
 In progress. Not ready for active use.
 
@@ -64,36 +64,32 @@ The Western Arts site is also unique because it uses some of the components from
 
 ### Websites
 
-#### ****[**Western University**](https://github.com/emulsify-ds/westernuni)****
+#### [**Western University**](https://github.com/emulsify-ds/westernuni)
 
 The Western University site is a Drupal site which implements the Western UP Twig and Western UP SCSS repos off-the-shelf.
 
-#### ****[**Western Arts**](https://github.com/emulsify-ds/westernarts)****
+#### [**Western Arts**](https://github.com/emulsify-ds/westernarts)
 
 The Western Arts site is a Drupal site with implements some of the Western UP Twig/SCSS components off-the-shelf, but also contains custom components not a part of the Western U "organizational" components.
 
-#### ****[**Western Law**](https://github.com/emulsify-ds/western-law)****
+#### [**Western Law**](https://github.com/emulsify-ds/western-law)
 
 The Western Law site is a Gatsby and React site which uses the Western UP React/SCSS repos for its components.
 
-#### [**Western Identity**](https://github.com/emulsify-ds/western-identity)****
+#### [**Western Identity**](https://github.com/emulsify-ds/western-identity)
 
 The Western Identity site is a Gatsby powered "guidelines" site that contains information on branding, components, and other related documentation.
 
 ### **Component Repositories**
 
-#### ****[**Western UP SCSS**](https://github.com/emulsify-ds/western-up-scss)****
+#### [**Western UP SCSS**](https://github.com/emulsify-ds/western-up-scss)
 
 The Western UP SCSS repository contains all of the styles used by Western U properties. Since both the Twig and React repos below are configured to consume scss, we only write the styles once, and let each language focus on creating high-quality markup in their respective languages.
 
-#### [**Western UP Twig**](https://github.com/emulsify-ds/western-up-twig)****
+#### [**Western UP Twig**](https://github.com/emulsify-ds/western-up-twig)
 
 The Western UP Twig repo contains the Twig components available to all Western U Twig-based properties.
 
-#### ****[**Western UP React**](https://github.com/emulsify-ds/western-up-react)****
+#### [**Western UP React**](https://github.com/emulsify-ds/western-up-react)
 
 The Western UP **React** repo contains the React components available to all Western U React-based properties.
-
-****
-
-****
