@@ -18,4 +18,4 @@ If you'd like to automate your component library deployment, here's the [GitHub 
 
 Visual regression testing is also performed against Compound any time a PR is changed from "Draft" to "Ready for Review". You can see the results of that [in Percy](https://percy.io/333ca28a/Compound).
 
-If you'd like to automate visual regression testing for your component library, [this GitHub Workflow config](https://github.com/emulsify-ds/compound/blob/main/.github/workflows/visual-regression-tests.yml) may help point you in the right direction.
+If you'd like to automate visual regression testing for your component library, [this GitHub Workflow config](https://github.com/emulsify-ds/compound/blob/main/.github/workflows/tests.yml#L6-L34) may help point you in the right direction.

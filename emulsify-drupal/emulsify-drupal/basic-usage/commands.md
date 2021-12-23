@@ -8,19 +8,18 @@ description: Commands available in Emulsify Drupal
 
 Develop: `npm run develop`
 
-This combines 3 tasks, which can be run separately as needed:
+This combines 2 tasks, which can be run separately as needed:
 
 1. `npm run webpack` (Sass/CSS compiling/minifying/linting, SVG Spriting)
-2. `npm run babel` (ES6 transpiling, minification)
-3. `npm run storybook` (Storybook dev watch task)
+2. `npm run storybook` (Storybook dev watch task)
 
 **Deploy Storybook**
 
-`npm run deploy-storybook`
+`npm run storybook-deploy`
 
 [Here is a demo](https://emulsify-ds.github.io/compound/) of the default Storybook Github deployment
 
-### Linting JavaScript
+### Linting JavaScript/Styles
 
 `npm run lint`
 
@@ -32,7 +31,4 @@ This combines 3 tasks, which can be run separately as needed:
 
 `npm run build`
 
-This combines 2 tasks and is intended for Drupal builds (e.g., in a CI environment):
-
-1. `npm run build-webpack` (same as `npm run webpack`  but without watch task and using [production](../../../supporting-projects/webpack-and-build.md#project) webpack file)
-2. `npm run build-babel` (same as `npm run babel` but without watch task)
+This runs the production webpack script and is intended for Drupal builds (e.g., in a CI environment.)
