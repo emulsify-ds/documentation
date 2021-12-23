@@ -22,6 +22,8 @@ description: >-
 
 The recommended method of installing the Drupal Starter is via the Emulsify CLI. Before you follow the steps below, verify you have the CLI installed `npm install -g @emulsify/cli`.
 
+Here's a [video walkthrough](https://modulesunraveled.wistia.com/medias/7cdtb3k40h) that quickly shows these steps, plus a little more about the CLI
+
 1. In your project root, initialize a theme based on the Drupal starter `emulsify init "My Awesome Theme"` (Using your preferred theme name)
 2. Move into your new theme `cd web/themes/custom/my_awesome_theme`
 3. Install the Compound system `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout 1.1.0`

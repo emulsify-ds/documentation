@@ -12,6 +12,10 @@ Its [usage is also documented](https://github.com/emulsify-ds/emulsify-cli/blob/
 
 Some of the basics are listed here, but for more details and the latest updates, visit the Emulsify CLI repo.
 
+## Video Walkthrough
+
+Watch [this video](https://modulesunraveled.wistia.com/medias/7cdtb3k40h) to get a quick walkthrough of the CLI in action!
+
 ## Basic Usage
 
 * `emulsify init` allows developers to easily create an Emulsify project. it attempts to detect the platform being used, and implements the appropriate starter (such as [emulsify-drupal](https://github.com/emulsify-ds/emulsify-drupal)).
