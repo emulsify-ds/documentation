@@ -20,8 +20,8 @@ description: Use Lando to make your development environment portable
 ### Basic Lando stack
 
 1. The `drupal9` recipe can handle most the work for us
-   ```
-     recipe: drupal9
+   ```yaml
+   recipe: drupal9
    ```
 2. Emulsify needs port 6006 to be available for StorybookJS and port 32778 to be available for 
 [Hot Reload](./hot-reload-drupal.md).
@@ -33,8 +33,7 @@ description: Use Lando to make your development environment portable
             - 6006:6006
             - 32778:32778
    ```
-3. Both NodeJS and NPM needs to be available at a project level.  Using npm the emulsify cli command
-can also be installed.  This and npm can both be made available via Lando tooling.
+3. Both NodeJS and NPM needs to be available at a project level.  Using npm the emulsify cli command can also be installed.  This and npm can both be made available via Lando tooling.
    ```yaml
    services:
      appserver:
@@ -105,8 +104,7 @@ tooling:
 
 ### Setup
 1. Run `composer create-project drupal/recommended-project my-project`
-See [Starting a Site Using Drupal Composer Project Templates](https://www.drupal.org/docs/develop/using-composer/starting-a-site-using-drupal-composer-project-templates)
-for more information on setting up a Drupal project with Composer.
+See [Starting a Site Using Drupal Composer Project Templates](https://www.drupal.org/docs/develop/using-composer/starting-a-site-using-drupal-composer-project-templates) for more information on setting up a Drupal project with Composer.
 2. Add the above lando.yml file to the project
 3. Run `lando start`
 4. After it builds you can then run these commands:
@@ -114,5 +112,4 @@ for more information on setting up a Drupal project with Composer.
 - `lando npm`
 - `lando emulsify`
 - `lando drush`
-5. Follow the [Inside a Composer-Based Drupal Instance](https://www.drupal.org/docs/develop/using-composer/starting-a-site-using-drupal-composer-project-templates)
-steps to complete setting up Emulsify Drupal.
+5. Follow the [Inside a Composer-Based Drupal Instance](https://www.drupal.org/docs/develop/using-composer/starting-a-site-using-drupal-composer-project-templates) steps to complete setting up Emulsify Drupal.
