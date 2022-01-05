@@ -12,6 +12,7 @@
     * [Accessibility Testing](emulsify-drupal/emulsify-drupal/advanced-usage/accessibility-testing.md)
     * [Adding 3rd-party libraries](emulsify-drupal/emulsify-drupal/advanced-usage/3rd-party-libraries.md)
     * [Hot Reload Drupal](emulsify-drupal/emulsify-drupal/advanced-usage/hot-reload-drupal.md)
+    * [Lando Environments](emulsify-drupal/emulsify-drupal/advanced-usage/lando-environments.md)
   * [FAQ](emulsify-drupal/emulsify-drupal/faq/README.md)
     * [Upgrading](emulsify-drupal/emulsify-drupal/faq/upgrading.md)
 
