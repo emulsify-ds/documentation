@@ -117,4 +117,4 @@ tooling:
 * `lando emulsify`
 * `lando drush`
 
-1. Follow the [Inside a Composer-Based Drupal Instance](https://docs.emulsify.info/emulsify-drupal/emulsify-drupal#inside-a-composer-based-drupal-instance) steps to complete setting up Emulsify Drupal.
+1. Follow the [Inside a Composer-Based Drupal Instance](emulsify-drupal/emulsify-drupal#inside-a-composer-based-drupal-instance) steps to complete setting up Emulsify Drupal.
