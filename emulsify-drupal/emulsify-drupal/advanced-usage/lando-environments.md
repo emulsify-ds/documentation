@@ -23,8 +23,7 @@ description: Use Lando to make your development environment portable
    ```yaml
    recipe: drupal9
    ```
-2. Emulsify needs port 6006 to be available for StorybookJS and port 32778 to be available for 
-[Hot Reload](./hot-reload-drupal.md).
+2. Emulsify needs port 6006 to be available for StorybookJS and port 32778 to be available for [Hot Reload](./hot-reload-drupal.md).
    ```yaml
    services:
      appserver:
