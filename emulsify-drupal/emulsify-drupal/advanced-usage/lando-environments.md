@@ -23,17 +23,7 @@ description: Use Lando to make your development environment portable
    ```yaml
    recipe: drupal9
    ```
-2. Emulsify needs port 6006 to be available for StorybookJS and port 32778 to be available for 
-[Hot Reload](./hot-reload-drupal.md).
-   ```yaml
-   services:
-     appserver:
-       overrides:
-         ports:
-            - 6006:6006
-            - 32778:32778
-   ```
-3. Both NodeJS and NPM needs to be available at a project level.  Using npm the emulsify cli command can also be installed.  This and npm can both be made available via Lando tooling.
+2. Both NodeJS and NPM needs to be available at a project level.  Using npm the emulsify cli command can also be installed.  This and npm can both be made available via Lando tooling.
    ```yaml
    services:
      appserver:
@@ -53,6 +43,18 @@ description: Use Lando to make your development environment portable
        service: appserver
      emulsify:
        service: appserver
+   ```
+3. Emulsify needs port 6006 to be available for StorybookJS and port 32778 to be available for [Hot Reload](./hot-reload-drupal.md).
+
+   By adding proxy address for browsersync.example.lndo.site and storybook.example.lndo.site that point to the ports needed, those applications can be accessible by navigating to the addresses without the ports from outside the container services. 
+   
+   Since we are using proxies instead of forwarding ports directly, multiple projects can make use of these ports simultaneously.
+   ```yaml
+   proxy:
+      appserver:
+         - example.lndo.site
+         - browsersync.example.lndo.site:32778
+         - storybook.example.lndo.site:6006 
    ```
 
 ## Full example
@@ -74,9 +76,6 @@ services:
     overrides:
       environment:
         DRUSH_OPTIONS_URI: "https://example.lndo.site"
-      ports:
-        - 6006:6006
-        - 32778:32778
     build:
       - composer install
     build_as_root:
@@ -90,6 +89,8 @@ services:
 proxy:
   appserver:
     - example.lndo.site
+    - browsersync.example.lndo.site:32778
+    - storybook.example.lndo.site:6006
 tooling:
   drush:
     service: appserver
