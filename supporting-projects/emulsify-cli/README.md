@@ -6,11 +6,9 @@ description: Command line interface for Emulsify.
 
 ## Docs
 
-Installation and setup of the Emulsify CLI is documented thoroughly in [its GitHub repo](https://github.com/emulsify-ds/emulsify-cli).&#x20;
+Installation and setup of the Emulsify CLI itself is documented thoroughly in [its GitHub repo](https://github.com/emulsify-ds/emulsify-cli).&#x20;
 
-Its [usage is also documented](https://github.com/emulsify-ds/emulsify-cli/blob/develop/USAGE.md) in a separate readme.
-
-Some of the basics are listed here, but for more details and the latest updates, visit the Emulsify CLI repo.
+How to use the CLI in a typical workflow is documented in [the Usage section](emulsify-cli-usage.md) of these docs.
 
 ## Video Walkthrough
 

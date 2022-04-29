@@ -22,7 +22,8 @@
 
 ## Supporting Projects
 
-* [Emulsify CLI](supporting-projects/emulsify-cli.md)
+* [Emulsify CLI](supporting-projects/emulsify-cli/README.md)
+  * [Emulsify CLI Usage](supporting-projects/emulsify-cli/emulsify-cli-usage.md)
 * [Twig Extensions](supporting-projects/twig-extensions/README.md)
   * [Add a Custom Twig Extension](supporting-projects/twig-extensions/add-a-custom-twig-extension.md)
 * [Webpack & Babel](supporting-projects/webpack-and-build.md)
