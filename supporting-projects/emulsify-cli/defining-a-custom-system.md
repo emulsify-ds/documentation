@@ -1,118 +1,153 @@
-# Adding Components to a System
+---
+description: >-
+  Compound is the default Emulsify system, but you can define your own for your
+  custom projects!
+---
 
-When you're building out your system, you'll need to add new components to your `system.emulsify.json` file in order for the CLI to know they exists, and what to do with them.
+# Defining a Custom System
 
-The process is really pretty straight-forward. Let's take a look at a few sections in the [system.emulsify.json for Compound](https://github.com/emulsify-ds/compound/blob/main/system.emulsify.json). Below are the "structure" and "variants" sections - which are where your updates are most likely to be made:
+When you're building your custom system, you'll need to add new components to your `system.emulsify.json` file in order for the CLI to know they exists, and what to do with them.
+
+The process is pretty straight-forward. Let's take a look at an example pulled from the [system.emulsify.json for Compound](https://github.com/emulsify-ds/compound/blob/main/system.emulsify.json).
 
 ```
-"structure": [
-  {
-    "name": "base",
-    "description": "Base-level components used in virtually every higher-level component"
-  },
-  {
-    "name": "atoms",
-    "description": "Small components commonly used in higher-level components"
-  },
-  {
-    "name": "molecules",
-    "description": "Medium-sized components used as building blocks within a larger component"
-  },
-  {
-    "name": "organisms",
-    "description": "Large components that compose smaller components into a cohesive UI"
-  },
-  {
-    "name": "templates",
-    "description": "Collection of layout templates."
-  },
-  {
-    "name": "pages",
-    "description": "Entire pages built using smaller components"
-  }
-],
-"variants": [
-  {
-    "platform": "drupal",
-    "structureImplementations": [
-      {
-        "name": "base",
-        "directory": "./components/00-base"
-      },
-      {
-        "name": "atoms",
-        "directory": "./components/01-atoms"
-      },
-      {
-        "name": "molecules",
-        "directory": "./components/02-molecules"
-      },
-      {
-        "name": "organisms",
-        "directory": "./components/03-organisms"
-      },
-      {
-        "name": "templates",
-        "directory": "./components/04-templates"
-      },
-      {
-        "name": "pages",
-        "directory": "./components/05-pages"
-      }
-    ],
-    "directories": [
-      {
-        "name": "template-components",
-        "path": "./components/04-templates",
-        "destinationPath": "./components/04-templates",
-        "description": "Contains default templates and layouts that are required"
-      },
-      {
-        // other directories
-      }
-    ],
-    "files": [
-      {
-        "name": "style",
-        "path": "./components/style.scss",
-        "destinationPath": "./components/style.scss",
-        "description": "Primary style scss file"
-      }
-    ],
-    "components": [
-      {
-        "name": "01-colors",
-        "structure": "base",
-        "required": true
-      },
-      {
-        // other "base" components
-      },
-      {
-        "name": "buttons",
-        "structure": "atoms",
-        "required": true
-      },
-      {
-        // other "atoms"
-      },
-      {
-        "name": "card",
-        "structure": "molecules"
-      },
-      {
-        // other "molecules"
-      },
-      {
-        "name": "grid",
-        "structure": "organisms"
-      },
-      {
-        // other "organisms"
-      }
-    ]
-  }
-]
+{
+  "name": "compound",
+  "homepage": "https://github.com/emulsify-ds/compound",
+  "repository": "https://github.com/emulsify-ds/compound.git",
+  "structure": [
+    {
+      "name": "base",
+      "description": "Base-level components used in virtually every higher-level component"
+    },
+    {
+      "name": "atoms",
+      "description": "Small components commonly used in higher-level components"
+    },
+    {
+      "name": "molecules",
+      "description": "Medium-sized components used as building blocks within a larger component"
+    },
+    {
+      "name": "organisms",
+      "description": "Large components that compose smaller components into a cohesive UI"
+    },
+    {
+      "name": "templates",
+      "description": "Collection of layout templates."
+    },
+    {
+      "name": "pages",
+      "description": "Entire pages built using smaller components"
+    }
+  ],
+  "variants": [
+    {
+      "platform": "drupal",
+      "structureImplementations": [
+        {
+          "name": "base",
+          "directory": "./components/00-base"
+        },
+        {
+          "name": "atoms",
+          "directory": "./components/01-atoms"
+        },
+        {
+          "name": "molecules",
+          "directory": "./components/02-molecules"
+        },
+        {
+          "name": "organisms",
+          "directory": "./components/03-organisms"
+        },
+        {
+          "name": "templates",
+          "directory": "./components/04-templates"
+        },
+        {
+          "name": "pages",
+          "directory": "./components/05-pages"
+        }
+      ],
+      "directories": [
+        {
+          "name": "template-components",
+          "path": "./components/04-templates",
+          "destinationPath": "./components/04-templates",
+          "description": "Contains default templates and layouts that are required"
+        },
+        {
+          // other directories
+        }
+      ],
+      "files": [
+        {
+          "name": "style",
+          "path": "./components/style.scss",
+          "destinationPath": "./components/style.scss",
+          "description": "Primary style scss file"
+        }
+      ],
+      "components": [
+        {
+          "name": "01-colors",
+          "structure": "base",
+          "required": true
+        },
+        {
+          // other "base" components
+        },
+        {
+          "name": "buttons",
+          "structure": "atoms",
+          "required": true
+        },
+        {
+          // other "atoms"
+        },
+        {
+          "name": "card",
+          "structure": "molecules"
+        },
+        {
+          // other "molecules"
+        },
+        {
+          "name": "grid",
+          "structure": "organisms"
+        },
+        {
+          // other "organisms"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Name
+
+The "name" key is simply used to identify your system. That's about it.
+
+```
+  "name": "compound",
+```
+
+### Homepage
+
+The "homepage" key is used to link to your system's main web site. This will often be the system's repository, but if you have a separate website used to document your system, for example, you can link to that.
+
+```
+  "homepage": "https://github.com/emulsify-ds/compound",
+```
+
+### Repository
+
+The "repository" key is used to identify the location your system can be installed from. Compound is hosted on GitHub so it's the git URL in this example.
+
+```
+  "repository": "https://github.com/emulsify-ds/compound.git",
 ```
 
 ### Structure
@@ -146,6 +181,22 @@ The structure section is where you define the "structure" (or categories) of you
     "description": "Entire pages built using smaller components"
   }
 ],
+```
+
+### Variants
+
+The "variants" array is where you define the variants you support. This example only has one variant to support Drupal sites, but you could have additional variants for other CMSs like Wordpress, or even other languages, like React. Each variant requires a "platform" to be defined, which is used by the project implementing a system to determine which files, directories, and components are available, as well as where to install them. Those options are documented below.
+
+```
+  "variants": [
+    {
+      "platform": "drupal",
+      "structureImplementations": [],
+      "directories": [],
+      "files": [],
+      "components": []
+    }
+  ]
 ```
 
 ### Structure Implementation

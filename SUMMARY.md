@@ -24,7 +24,7 @@
 
 * [Emulsify CLI](supporting-projects/emulsify-cli/README.md)
   * [Emulsify CLI Usage](supporting-projects/emulsify-cli/emulsify-cli-usage.md)
-  * [Adding Components to a System](supporting-projects/emulsify-cli/adding-components-to-a-system.md)
+  * [Defining a Custom System](supporting-projects/emulsify-cli/defining-a-custom-system.md)
 * [Twig Extensions](supporting-projects/twig-extensions/README.md)
   * [Add a Custom Twig Extension](supporting-projects/twig-extensions/add-a-custom-twig-extension.md)
 * [Webpack & Babel](supporting-projects/webpack-and-build.md)
