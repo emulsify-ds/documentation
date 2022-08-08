@@ -95,3 +95,94 @@ The Western UP Twig repo contains the Twig components available to all Western U
 The Western UP **React** repo contains the React components available to all Western U React-based properties.
 
 ### Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ModulesUnraveled>
+            <img src=https://avatars.githubusercontent.com/u/1663810?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Brian Lewis/>
+            <br />
+            <sub style="font-size:14px"><b>Brian Lewis</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/cruno91>
+            <img src=https://avatars.githubusercontent.com/u/1760366?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Chris Runo/>
+            <br />
+            <sub style="font-size:14px"><b>Chris Runo</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/acouch>
+            <img src=https://avatars.githubusercontent.com/u/512243?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Aaron Couch/>
+            <br />
+            <sub style="font-size:14px"><b>Aaron Couch</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/thejimbirch>
+            <img src=https://avatars.githubusercontent.com/u/5177009?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jim Birch/>
+            <br />
+            <sub style="font-size:14px"><b>Jim Birch</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/amazingrando>
+            <img src=https://avatars.githubusercontent.com/u/409903?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Randy Oest/>
+            <br />
+            <sub style="font-size:14px"><b>Randy Oest</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/stephencapellic>
+            <img src=https://avatars.githubusercontent.com/u/13124872?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Stephen Musgrave/>
+            <br />
+            <sub style="font-size:14px"><b>Stephen Musgrave</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/acrollet>
+            <img src=https://avatars.githubusercontent.com/u/101649?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Adrian Rollett/>
+            <br />
+            <sub style="font-size:14px"><b>Adrian Rollett</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/hanoii>
+            <img src=https://avatars.githubusercontent.com/u/677879?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Ariel Barreiro/>
+            <br />
+            <sub style="font-size:14px"><b>Ariel Barreiro</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ccjjmartin>
+            <img src=https://avatars.githubusercontent.com/u/12279982?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Chris Martin/>
+            <br />
+            <sub style="font-size:14px"><b>Chris Martin</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/jfitzsimmons2>
+            <img src=https://avatars.githubusercontent.com/u/1531748?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Joe Fitzsimmons/>
+            <br />
+            <sub style="font-size:14px"><b>Joe Fitzsimmons</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/KurtTrowbridge>
+            <img src=https://avatars.githubusercontent.com/u/848721?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Kurt Trowbridge/>
+            <br />
+            <sub style="font-size:14px"><b>Kurt Trowbridge</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/gitbook-bot>
+            <img src=https://avatars.githubusercontent.com/u/31919211?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=GitBook Bot/>
+            <br />
+            <sub style="font-size:14px"><b>GitBook Bot</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
