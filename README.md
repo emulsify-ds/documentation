@@ -93,3 +93,5 @@ The Western UP Twig repo contains the Twig components available to all Western U
 #### [**Western UP React**](https://github.com/emulsify-ds/western-up-react)
 
 The Western UP **React** repo contains the React components available to all Western U React-based properties.
+
+### Contributors
