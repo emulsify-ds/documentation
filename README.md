@@ -106,17 +106,17 @@ The Western UP **React** repo contains the React components available to all Wes
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/cruno91>
-            <img src=https://avatars.githubusercontent.com/u/1760366?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Chris Runo/>
-            <br />
-            <sub style="font-size:14px"><b>Chris Runo</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/amazingrando>
             <img src=https://avatars.githubusercontent.com/u/409903?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Randy Oest/>
             <br />
             <sub style="font-size:14px"><b>Randy Oest</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/cruno91>
+            <img src=https://avatars.githubusercontent.com/u/1760366?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Chris Runo/>
+            <br />
+            <sub style="font-size:14px"><b>Chris Runo</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
