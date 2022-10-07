@@ -37,7 +37,7 @@ Here's a [video walkthrough](https://modulesunraveled.wistia.com/medias/7cdtb3k4
 
 ## Standalone (for prototyping outside of a Drupal install)
 
-1. Install the starter at your preferred location, and pass a starter\* (like Drupal) `emulsify init "My Awesome Theme --platform drupal .` (The preceding snippet uses `.` to indicate "the current location")
+1. Install the starter at your preferred location, and pass a starter\* (like Drupal) `emulsify init "My Awesome Theme" --platform drupal .` (The preceding snippet uses `.` to indicate "the current location")
 2. `cd` into that directory and install your system. `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout 1.1.0`&#x20;
 3. Now you can run `npm run build` to simply compile things, or `npm run develop` to start working on the components in isolation.
 4. See [the FAQ](faq/) for the final step to avoid the `.git can't be found` error
