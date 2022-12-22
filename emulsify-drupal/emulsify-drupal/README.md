@@ -26,7 +26,7 @@ Here's a [video walkthrough](https://modulesunraveled.wistia.com/medias/7cdtb3k4
 
 1. In your project root, initialize a theme based on the Drupal starter `emulsify init "My Awesome Theme"` (Using your preferred theme name)
 2. Move into your new theme `cd web/themes/custom/my_awesome_theme`
-3. Install the Compound system `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout 1.1.0`
+3. Install the Compound system with the default components `emulsify system install compound`
 4. Build theme `npm run build`
 5. Enable your theme and its dependencies\* \*\*`drush then THEME_NAME -y && drush en components emulsify_twig -y`
 6. Set your custom theme as the default `drush config-set system.theme default THEME_NAME -y`
