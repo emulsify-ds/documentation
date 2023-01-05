@@ -30,7 +30,7 @@ Compound is the default Emulsify system, and currently includes a variant for Dr
 
 ### [Emulsify Cli](https://github.com/emulsify-ds/emulsify-cli)
 
-This is a command line interface for Emulsify. With it, you can initial a project, and identify a "system" (like Compound) for your project. Once initialized you can install individual components from that system into your project as "boiler-plate" code.
+This is a command line interface for Emulsify. With it, you can initialize a project, and identify a "system" (like Compound) for your project. Once initialized you can install individual components from that system into your project as "boiler-plate" code.
 
 ### Emulsify Twig
 
