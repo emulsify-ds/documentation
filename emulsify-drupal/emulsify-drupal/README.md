@@ -13,7 +13,7 @@ description: >-
 1. [Node (we recommend NVM)](https://github.com/nvm-sh/nvm)
 2. [Emulsify CLI](https://docs.emulsify.info/supporting-projects/emulsify-cli) (Not strictly recommended, but all docs will assume its use)
 
-### Picking a version:
+### Picking a version
 
 * **4.x** - Drupal 9.x compatible
 * **2.x** - Drupal 8.x compatible (No longer supported)
@@ -38,7 +38,7 @@ Here's a [video walkthrough](https://modulesunraveled.wistia.com/medias/7cdtb3k4
 ## Standalone (for prototyping outside of a Drupal install)
 
 1. Install the starter at your preferred location, and pass a starter\* (like Drupal) `emulsify init "My Awesome Theme" --platform drupal .` (The preceding snippet uses `.` to indicate "the current location")
-2. `cd` into that directory and install your system. `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout 1.1.0`&#x20;
+2. `cd` into that directory and install your system. `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout main` for the latest version or `emulsify system install --repository https://github.com/emulsify-ds/compound.git --checkout [branch/tag/commit]` if you would like to use a specific version.
 3. Now you can run `npm run build` to simply compile things, or `npm run develop` to start working on the components in isolation.
 4. See [the FAQ](faq/) for the final step to avoid the `.git can't be found` error
 
