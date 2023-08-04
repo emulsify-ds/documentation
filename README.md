@@ -1,3 +1,5 @@
+# Documentation has been folded into the Emulsify Website repo.
+
 # Emulsify Design System
 
 ![](.gitbook/assets/logo.png)
